@@ -603,8 +603,8 @@
     background-position: -1548px -91px;
 }
 .main{
-    margin:auto;
-    width: 1200px;
+    left:50%;
+    transform: translateX(-50%);
     position: absolute;
     top:635px;
     z-index: 11;

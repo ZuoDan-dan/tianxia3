@@ -1,0 +1,688 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    width:100%;
+    height:32px;
+    background-color:#F5F5F5;
+    border-bottom:1px solid #DCDCDC;
+}
+.top-cont{
+    width:980px;
+    height:32px;
+    margin:0 auto;
+    /*background-color:pink;*/
+    line-height:32px;
+    font-size:12px;
+}
+.homelink{
+    float:left;
+}
+.top-cont a{
+    text-decoration: none;
+    color:#666;
+}
+.top-cont a:hover{
+    color: #FF784F;
+    text-decoration: underline;
+}
+.user_link{
+    float:right;
+}
+.header{
+    width:980px;
+    height:50px;
+    /*background-color:palegreen;*/
+    margin:12px auto;
+}
+.logo{
+    float:left;
+}
+.logo a{
+   text-decoration: none;
+}
+.gameLogo{
+    margin:0 0 0 8px;
+}
+img{
+    vertical-align: middle;
+}
+.f_14px{
+    font-size:14px;
+}
+.search-form{
+    float:left;
+    width:610px;
+    margin-left:90px;
+}
+.search-form-items{
+    width:432px;
+    height:34px;
+    margin-top:10px;
+    float:left;
+    background:url("../../../../public/images/Tools/know/search-bg.png")
+}
+.search-form-items input{
+    border:none;
+    background:transparent;
+}
+.i-search-keyword{
+    width:336px;
+    height:24px;
+    padding:5px;
+}
+input{
+    vertical-align: middle;
+}
+.i-search-submit{
+    width:84px;
+    height:32px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#666;
+    margin-left:-6px;
+}
+.search-form-text{
+    width:160px;
+    height:34px;
+    margin-top:10px;
+    margin-left:15px;
+    float:left;
+}
+.i-ask-submit{
+    width:88px;
+    height:34px;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    line-height:34px;
+    font-size:14px;
+    display:inline-block;
+    background:url("../../../../public/images/Tools/know/ask-btn.png");
+}
+.i-ask-submit:hover{
+    background:url("../../../../public/images/Tools/know/ask-btn.png") 0 -33px no-repeat;
+}
+.help{
+    text-decoration: none;
+    font-size:12px;
+    color:#0078C4;
+    margin-left:10px;
+}
+.help:hover{
+    color: #FF784F;
+    text-decoration: underline;
+}
+.nav{
+    width:100%;
+    height:46px;
+    background-color:#00B0F1;
+}
+.nav-cont{
+    width:980px;
+    margin:0 auto;
+}
+.nav-cont ul{
+    list-style:none;
+}
+ul li{
+    float:left;
+}
+.nav li a{
+    padding:0 18px;
+    height:46px;
+    line-height:46px;
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+}
+.nav li.on{
+    background-color:#006BAE;
+}
+.nav li:hover{
+    background-color:#006BAE;
+}
+.wrap01{
+    width:100%;
+    height:360px;
+    background-color:#f7f7f7;
+    padding-top:10px;
+}
+.wrap01 ul{
+    list-style:none;
+}
+.wrap01-cont{
+    width:980px;
+    margin:0 auto;
+}
+.wrap01-col{
+    width:726px;
+    height:360px;
+    float:left;
+    border-right:1px solid #DCDCDC;
+}
+.col-title{
+    height:20px;
+}
+.col-title h2{
+    font-size:16px;
+    color:#333;
+    font-weight:bold;
+    float:left;
+}
+.col-title .more{
+    float:right;
+    padding-right:36px;
+    text-decoration: none;
+    background:url("../../../../public/images/Tools/know/arr04-right-ico.png") no-repeat 53px;
+}
+.col-title .more a{
+    text-decoration: none;
+    font-size:12px;
+    color:#999;
+}
+.col-title .more a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.pic{
+    float:left;
+}
+.topics-text{
+    width:380px;
+    height:237px;
+    margin-left:20px;
+    /*background-color:palegreen;*/
+    float:left;
+}
+.topics-text dt h3{
+    font-size:18px;
+    line-height:24px;
+    padding-left:32px;
+    font-weight: normal;
+    background:url("../../../../public/images/Tools/know/ask-ico.png") no-repeat left center;
+}
+.topics-text dt h3 a{
+    color: #0078C4;
+    text-decoration: none;
+}
+.topics-text dt h3 a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.topics-text dd{
+    color:#999;
+    padding-top:12px;
+    padding-left:32px;
+    font-size:12px;
+    line-height:22px;
+    background:url("../../../../public/images/Tools/know/answer-ico.png") no-repeat left 8px;
+}
+.topics-text p{
+    padding-left:32px;
+    color:#999;
+    padding-top:5px;
+    font-size:12px;
+}
+.topics-text p a{
+    color:#000;
+    text-decoration: none;
+}
+.topics-text p a:hover{
+    color: #FF784F;
+    text-decoration: underline;
+}
+.topics-tab li a{
+    color:#0078C4;
+    text-decoration: none;
+    font-size:14px;
+}
+.topics-tab li a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.topics-tab .on{
+    background-color: #B8E6FF;
+}
+#rce_section{
+    position:relative;
+    width:726px;
+    height:303px;
+    /*background-color:palegreen;*/
+    margin-top:20px;
+    overflow: hidden;
+}
+.topics-conts{
+    position:relative;
+    width:2300px;
+    height:240px;
+    z-index: 10;
+    overflow: hidden;
+}
+.slider-panel{
+    width: 726px;
+    height: 240px;
+    float:left;
+    display: inline;
+}
+.topics-tab{
+    width:726px;
+    height:43px;
+    background-color: #E9EEF1;
+    position:relative;
+    top:20px;
+    clear:both;
+    z-index: 30;
+}
+.topics-tab li{
+    width:242px;
+    height:43px;
+    text-align: center;
+    line-height:43px;
+    float: left;
+    position:relative;
+}
+.topics-tab .slider-item-selected i{
+    width:12px;
+    height:6px;
+    background:url("../../../../public/images/Tools/know/arr01-up-ico.png") no-repeat;
+    position:absolute;
+    top:-6px;
+    right:115px;
+}
+.topics-text ul{
+    padding:18px 0 0 32px;
+}
+.slider-nav .slider-item-selected {
+    background:#B8E6FF;
+}
+.topics-text li a{
+    font-size:14px;
+    line-height:28px;
+}
+.topics-text dt h3 a{
+    font-size:18px;
+}
+.topics-text li span a{
+    color:#666;
+    font-size:12px;
+}
+.topics-text li span a:hover{
+    color: #FF784F;
+}
+.panel{
+    width:232px;
+    height:300px;
+    /*background-color:pink;*/
+    float:left;
+}
+.panel .intro{
+    width:232px;
+    height:76px;
+    margin-top:33px;
+    margin-left:20px;
+    background:url("../../../../public/images/Tools/know/intro-bg.png") no-repeat;
+}
+.f_14px{
+    font-weight:normal;
+    margin-top:20px;
+    margin-left:20px;
+}
+.count{
+    margin:15px auto;
+}
+.number{
+    background-color:#C3CCD3;
+    padding:3px 3px 3px 3px;
+    margin-left:20px;
+    float:left;
+}
+.number span{
+    width:23px;
+    height:36px;
+    background-color:#fff;
+    display:inline-block;
+    border-radius: 3px;
+    font-size:20px;
+    color:#888888;
+    line-height:40px;
+    text-align: center;
+}
+.count i{
+    float:left;
+    font-weight: bold;
+    font-style: normal;
+    padding-top:13px;
+    padding-left:5px;
+}
+.c_Gray{
+    clear:both;
+    margin-left:20px;
+    padding-top:15px;
+    color:#999;
+    font-size:11px;
+}
+a{
+    color: #0078C4;
+    font-size:12px;
+    text-decoration: none;
+}
+a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.commit{
+    display:inline-block;
+    height:31px;
+    background: #A5CE00 url("../../../../public/images/Tools/know/question-ico.png") no-repeat 9px center;
+    font-size:14px;
+    text-align: center;
+    line-height:31px;
+    color:#fff;
+    text-decoration: none;
+    margin-left:85px;
+    margin-top:20px;
+    border-radius: 3px;
+    padding:0 18px;
+    text-indent: 12px;
+}
+.commit:hover{
+    color: #f3ff92;
+    background-color: #97b61b;
+}
+.index-wrap{
+    width:980px;
+    height:1025px;
+    border-bottom:1px solid gainsboro;
+    background:pink url("../../../../public/images/Tools/know/index-wrap-bg.png") repeat-y right;
+    margin:24px auto 48px;
+}
+.index-col-left{
+    float:left;
+    width:726px;
+    height:1025px;
+    background:url("../../../../public/images/Tools/know/index-wrap-left-bg.png") repeat-y;
+}
+.index-col-left ul{
+    list-style:none;
+}
+.cate-bar{
+    float:left;
+    width:162px;
+    height:955px;
+    /*background-color:plum;*/
+    padding:0 12px 24px 0;
+}
+.col-title{
+    height:20px;
+    padding:18px 0 0;
+}
+.col-title h2{
+    float:left;
+    font-size:16px;
+    font-weight:bold;
+    color:#333;
+}
+.col-title .more{
+    padding-right:20px;
+}
+.col-title .more a:hover{
+    text-decoration: none;
+}
+.cate-list h4 a{
+    font-size:14px;
+    margin:18px 0 9px;
+    font-weight:normal;
+    text-decoration: none;
+    color: #0078C4;
+}
+.cate-list h4 a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.cate-list li{
+    margin:2px 5px 4px 0;
+    float:left;
+}
+.cate-list li a{
+    color:#666;
+    text-decoration:none;
+    font-size:12px;
+}
+.cate-list li a:hover{
+    color: #FF784F;
+    text-decoration: underline;
+}
+.feedBack{
+    margin-top:55px;
+    border-top:1px solid #EBEBEB;
+    padding:18px 0 0;
+}
+.feedBack a{
+    width:155px;
+    height:24px;
+    display:block;
+    background:url("../../../../public/images/Tools/know/feedback-bg.png") no-repeat;
+}
+.index-center{
+    width:532px;
+    float:left;
+    padding-left:20px;
+}
+.col-title span{
+    float:right;
+    font-size:12px;
+    color:#999;
+}
+.col-title span a{
+    color:#999;
+    text-decoration:none;
+}
+.col-title span a:hover{
+    color:#f00;
+}
+.col-title span .on{
+    color: #0078C4;
+}
+.col-title span .on:hover{
+    color: #0078C4;
+}
+.list-tb td{
+    border-bottom:1px dashed #EBEBEB;
+    padding:20px 0 20px;
+}
+.list-tb .f_12px{
+    font-size:12px;
+    color:#999;
+    text-decoration: none;
+}
+.list-tb .f_12px:hover{
+    color: #FF784F;
+    text-decoration: underline;
+}
+.list-tb a{
+    color: #0078C4;
+    text-decoration: none;
+    font-size:14px;
+}
+.list-tb a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.list-tb .c_Gray{
+    float:right;
+    margin-right:20px;
+}
+span.score{
+    color:#FF784F;
+    font-size:10px;
+    padding:1px 2px 0 17px;
+    background:url("../../../../public/images/Tools/know/coin-ico.png") no-repeat left 0;
+}
+.t_Right{
+    /*margin-top:10px;*/
+    text-align:right;
+    margin-right:20px;
+}
+.t_Right a{
+    color: #0078C4;
+    text-decoration: none;
+    font-size:12px;
+}
+.t_Right a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+.index-col-right{
+    width:216px;
+    border-top:1px solid #DCDCDC;
+    float:left;
+    margin-left:2px;
+    padding:0 18px;
+}
+.ifr{
+    width:214px;
+    height:105px;
+    margin-top:5px;
+}
+.ifr ul{
+    color:#999;
+    list-style: none;
+}
+.ifr ul li{
+    background:url("../../../../public/images/Tools/know/li-pre.png") no-repeat scroll left 12px;
+    line-height:26px;
+}
+.ifr a{
+    font-size:14px;
+    color: #0078C4;
+    padding-left:8px;
+    text-decoration: none;
+}
+.ifr a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+.ifr ul li span{
+    font-size:11px;
+}
+#rank_list{
+    width:210px;
+    height:350px;
+    margin-top:20px;
+    border-top:1px solid #dcdcdc;
+}
+ul{
+    list-style:none;
+}
+.rank-list{
+    clear:both;
+}
+.rank-list img{
+    display:inline;
+    margin:6px 12px 0 0;
+    float:left;
+}
+.rank-list li{
+    width:210px;
+    line-height:24px;
+}
+.rank-list h3{
+    font-size:14px;
+}
+.rank-list a{
+    color:#0078c4;
+    text-decoration: none;
+}
+.rank-list a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+.rank-list p{
+    color:#999;
+    line-height:18px;
+    font-size:12px;
+}
+.c_Orange{
+    color:#ff784f;
+}
+.rank-top{
+    padding-top:5px;
+    padding-bottom:6px;
+}
+.rank-list i{
+    font-style:normal;
+    font-size:16px;
+    margin:0 12px 0 6px;
+    font-weight:bold;
+    color:#ccc;
+}
+.rank-list i.top-three{
+    color:#ff784f;
+}
+.rank-list li a{
+    font-size:12px;
+}
+.blank{
+    clear:both;
+    height:24px;
+    border-bottom:1px solid #dcdcdc;
+}
+#NIE-copyRight{
+    position: relative;
+    border-top:1px solid #dcdcdc;
+    padding:18px 0;
+    background: #f5f5f5;
+    color: #333;
+    height:140px;
+}
+.nie-copyright-new-inner{
+    width:840px;
+    text-align:left;
+    margin:0 auto;
+    padding:15px 0 10px;
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    min-width:280px
+}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;
+}
+.nie-cn-logo img{
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;
+}
+.nie-cn-nav{
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:relative;
+}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal;
+}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;
+}
+#NIE-copyRight a{
+    text-decoration:none;
+    color: #0078c4;
+}
+#NIE-copyRight a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+
+

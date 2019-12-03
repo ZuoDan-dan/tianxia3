@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    min-width: 1330px;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+}
+i em{
+    font-style: normal;
+}
+.wrap{
+    width:100%;
+    max-width: 1920px;
+    overflow: hidden;
+    position: relative;
+    /*margin-top: -20px;*/
+    height:929px;
+}
+.wrap1{
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    position: relative;
+    display: block;
+    background: url("../../../images/Game_features/Scene_display/bg.jpg") center top no-repeat !important;
+}
+.wrap-flash{
+    width:1920px;
+    height:929px;
+    position: absolute;
+    z-index: 1;
+    left:50%;
+    margin-left:-960px;
+}
+embed{
+    width:100%;
+    height:100%;
+}
+.wrap-main{
+    height:929px;
+    position: relative;
+    width: 1200px;
+    z-index:5;
+    margin: 0 auto;
+}
+.cloud{
+    position: absolute;
+    display: block;
+}
+.cloud1{
+    z-index:1;
+    width:670px;
+    height:140px;
+    top:515px;
+    left:305px;
+    background: url("../../../images/Game_features/Scene_display/cloud01_c41c02a.png") no-repeat ;
+}
+.cloud2{
+    z-index: 1;
+    width:1725px;
+    height:520px;
+    top:189px;
+    left:-213px;
+    background: url("../../../images/Game_features/Scene_display/cloud02_0a9d661.png") no-repeat ;
+}
+.cloud3{
+    z-index:1;
+    width:490px;
+    height:220px;
+    top:490px;
+    left:457px;
+    background: url("../../../images/Game_features/Scene_display/cloud03_1dc0a18.png") no-repeat ;
+}
+.cloud4{
+    z-index:2;
+    width:585px;
+    height:238px;
+    top:462px;
+    left:-78px;
+    background: url("../../../images/Game_features/Scene_display/cloud04_73a858a.png") no-repeat ;
+}
+.cloud5{
+    z-index: 2;
+    width:555px;
+    height:220px;
+    top:393px;
+    left:746px;
+    background: url("../../../images/Game_features/Scene_display/cloud05_18c6cf3.png") no-repeat ;
+}
+.entrance{
+    z-index: 10;
+    position: absolute;
+    width:119px;
+    height:279px;
+}
+.entrance2{
+    top:228px;
+    left:160px;
+    animation: fadeInDownBig ease-out 1.4s 0.2s both;
+    -webkit-animation: fadeInDownBig ease-out 1.4s 0.2s both;
+    -moz-animation: fadeInDownBig ease-out 1.4s 0.2s both;
+    -o-animation: fadeInDownBig ease-out 1.4s 0.2s both;
+    -ms-animation: fadeInDownBig ease-out 1.4s 0.2s both;
+}
+.entrance1{
+    top:371px;
+    left:0;
+    animation: fadeInDownBig ease-out 1.4s 0s both;
+    -webkit-animation: fadeInDownBig ease-out 1.4s 0s both;
+    -moz-animation: fadeInDownBig ease-out 1.4s 0s both;
+    -o-animation: fadeInDownBig ease-out 1.4s 0s both;
+    -ms-animation: fadeInDownBig ease-out 1.4s 0s both;
+}
+.entrance3{
+    top:371px;
+    right:0px;
+    animation: fadeInDownBig ease-out 1.4s 0.6s both;
+    -webkit-animation: fadeInDownBig ease-out 1.4s 0.6s both;
+    -moz-animation: fadeInDownBig ease-out 1.4s 0.6s both;
+    -o-animation: fadeInDownBig ease-out 1.4s 0.6s both;
+    -ms-animation: fadeInDownBig ease-out 1.4s 0.6s both;
+}
+.entrance4{
+    top:248px;
+    right:165px;
+    animation: fadeInDownBig ease-out 1.4s 0.4s both;
+    -webkit-animation: fadeInDownBig ease-out 1.4s 0.4s both;
+    -moz-animation: fadeInDownBig ease-out 1.4s 0.4s both;
+    -o-animation: fadeInDownBig ease-out 1.4s 0.4s both;
+    -ms-animation: fadeInDownBig ease-out 1.4s 0.4s both;
+}
+@keyframes fadeInDownBig {
+    0%{opacity:0;
+        transform:translate3d(0,-1200px,0)}
+    100%{
+        opacity:1;
+        transform:none;  }
+}
+.entrance span{
+    position:absolute;
+    display: block;
+    width:1px;
+    height: 380px;
+    left:59px;
+    cursor: pointer;
+    transition:top linear 0.3s ;
+    -webkit-transition:top linear 0.3s ;
+    -moz-transition:top linear 0.3s ;
+    -o-transition:top linear 0.3s ;
+    -ms-transition:top linear 0.3s ;
+}
+.entrance span.s1,.entrance span.s2{
+    background: #a2a2a1;
+}
+.entrance span.s1{
+    top:-755px;
+}
+.entrance span.s2{
+    top:700px;
+}
+.entrance span.s3{  /*hover移出之后的转换*/
+    width:119px;
+    height:279px;
+    left:0;
+    transition: transform 0.5s ease 0s;
+    -webkit-transition: transform 0.5s ease 0s;
+    -moz-transition: transform 0.5s ease 0s;
+    -ms-transition: transform 0.5s ease 0s;
+    -o-transition: transform 0.5s ease 0s;
+    -webkit-transform: perspective(400px) rotate3d(0,1,0,0deg);
+    -moz-transform: perspective(400px) rotate3d(0,1,0,0deg);
+    -ms-transform: perspective(400px) rotate3d(0,1,0,0deg);
+    transform: perspective(400px) rotate3d(0,1,0,0deg);
+}
+.entrance1 span.s3{
+    background-position:-652px -282px;
+}
+.entrance2 span.s3{
+    background-position:-652px 0;
+}
+.entrance3 span.s3{
+    background-position:-286px -282px;
+}
+.entrance4 span.s3{
+    background-position:-408px -0px;
+}
+.entrance1:hover span.s1{
+    top:-390px;
+}
+.entrance2:hover span.s1{
+    top:-365px;
+}
+.entrance3:hover span.s1{
+    top:-375px;
+}
+.entrance4:hover span.s1{
+    top:-350px;
+}
+.entrance1:hover span.s2{
+    top:290px;
+}
+.entrance2:hover span.s2{
+    top:270px;
+}
+.entrance3:hover span.s2{
+    top:275px;
+}
+.entrance4:hover span.s2{
+    top:255px;
+}
+.entrance1:hover span.s3,.entrance2:hover span.s3,.entrance3:hover span.s3,.entrance4:hover span.s3{
+    transition: transform ease 0.5s;
+    -webkit-transition: transform ease 0.5s;
+    -moz-transition: transform ease 0.5s;
+    -ms-transition: transform ease 0.5s;
+    -o-transition: transform ease 0.5s;
+    -webkit-perspective-origin: 50% 50%;
+    -webkit-transform:  perspective(400px) rotate3d(0,1,0,-360deg);
+    -ms-transform: perspective(400px) rotate3d(0,1,0,-360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+}
+.entrance1:hover span.s3{
+    background-position:-410px -282px;
+}
+.entrance2:hover span.s3{
+    background-position:-530px 0;
+}
+.entrance3:hover span.s3{
+    background-position:-530px -282px;
+}
+.entrance4:hover span.s3{
+    background-position:-283px -0px;
+}
+.entrance1:hover span.s2{
+    height:370px;
+}
+.entrance2:hover span.s2{
+    height:450px;
+}
+.entrance3:hover span.s2{
+    height:370px;
+}
+.entrance4:hover span.s2{
+    height:450px;
+}
+.nav{
+    position: absolute;
+    width:250px;
+    margin-right: -250px;
+    height:100%;
+    right:0;
+    top:0;
+    z-index: 100;
+    overflow: hidden;
+    zoom:0;
+    font-size: 18px;
+    color:#888;
+    background:rgba(0,0,0,.8);
+    font-family: "微软雅黑";
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+}
+.nav.show{
+    margin-right: 0px;
+}
+.nav-btn{
+    position: absolute;
+    width:34px;
+    height:34px;
+    top:20px;
+    right:25px;
+    z-index: 100;
+    display: block;
+    background-position: -796px -766px;
+
+}
+.nav .nav-main{
+    width:150px;
+    height:100%;
+    position:absolute;
+    margin: 0 50px;
+}
+.entrance span.s3,.entrance:hover span.s3,.last-more,.nav-logo,.nav-btn,.nav-index a,.nav-item a.a1,.nav-item a.a2:hover,.nav-item a.a2,.nav-item a.a2:hover,.nav-item a.a3,.nav-item a.a3:hover,.nav-item a.a4,.nav-item a.a4:hover{
+    background-image: url("../../../images/Game_features/Scene_display/index_1_z_ff87f91.png");
+    background-repeat: no-repeat;
+}
+.nav-logo{
+    width:155px;
+    height:132px;
+    margin: 15px auto;
+    background-position:-774px -366px;
+}
+.nav a{
+    color: #888;
+    display: block;
+    transition: color ease 0.3s;
+    -webkit-transition: color ease 0.3s;
+    -moz-transition: color ease 0.3s;
+    -o-transition: color ease 0.3s;
+    -ms-transition: color ease 0.3s;
+}
+.nav-index{
+    width:155px;
+    height:127px;
+    display: block;
+}
+.nav-index a{
+    height:100%;
+    width:100%;
+    background-position:-774px -499px;
+}
+.nav-item{
+    position: relative;
+    border-bottom: 1px solid #4f4f4f;
+    padding-bottom:10px;
+
+}
+.nav-item a{
+    font-size:16px;
+    width: 80px;
+    position:relative;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+.nav-item a.a1{
+    background-position:-857px -742px;
+}
+.nav-item a.a2{
+    background-position:-618px -831px;
+}
+.nav-item a.a3{
+    background-position:-452px -831px;
+}
+.nav-item a.a4{
+    background-position:-907px -766px;
+}
+.nav-item a em.em1{
+    left:-85px;
+}
+.nav-item a em.em2{
+    right:-85px;
+}
+.nav-item a:hover em{
+    width: 88px;
+}
+.nav-item a em{
+    position:absolute;
+    width:0;
+    height:1px;
+    background: #888;
+    top:62%;
+    transition: width ease-in-out 0.3s;
+    -webkit-transition:width ease-in-out 0.3s;
+    -moz-transition: width ease-in-out 0.3s;
+    -o-transition: width ease-in-out 0.3s;
+    -ms-transition: width ease-in-out 0.3s;
+}
+.last-more{
+    width:80px;
+    height:44px;
+    background-position: -517px -766px;
+    margin:20px auto 0;
+}
+.share{
+    position: absolute;color:#969696;
+    top:720px;
+    width:80%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    -webkit-animation:fadeInUp ease-out 0.3s 2s both;
+    -o-animation:fadeInUp ease-out 0.3s 2s both;
+    -moz-animation:fadeInUp ease-out 0.3s 2s both;
+    animation:fadeInUp ease-out 0.3s 2s both;
+}
+.share a{
+    color: #969696;
+    display: inline-block;
+}
+.share .share-ico{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left: 60px;
+
+}
+.txt-share{
+    float: right;
+}
+#txt-share{
+    width:250px;
+    float: left;
+    line-height: 20px;
+    position: relative;
+    z-index: 2;
+}
+#txt-share ul li{
+    width:20px;
+    height:20px;
+}
+.txt-share span{
+    float: left;
+}
+.txt-share ul{
+    float: left;
+    text-align: left;
+}
+.txt-share ul li{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    list-style: none;
+    float: left;
+}
+.txt-share ul li a{
+    display: block;
+    width:20px;
+    height:20px;
+    font-size: 20px;
+    line-height: 20px;
+    list-style: none;
+    float: left;
+
+}
+.li1{
+    background: url("../../../../public/images/Game_features/Scene_display/微信.png") no-repeat;
+    background-size: cover;
+}
+.li1:hover{
+    background: url("../../../../public/images/lead/微信.png") no-repeat;
+    background-size: cover;
+}
+.li2{
+    background: url("../../../../public/images/Game_features/Scene_display/易信.png") no-repeat;
+    background-size: cover;
+}
+.li2:hover{
+    background: url("../../../../public/images/lead/易信.png") no-repeat;
+    background-size: cover;
+}
+.li3{
+    background: url("../../../../public/images/Game_features/Scene_display/新浪微博.png") no-repeat;
+    background-size: cover;
+}
+.li3:hover{
+    background: url("../../../images/lead/微博 .png") no-repeat;
+    background-size: cover;
+}
+.li4{
+    background: url("../../../images/Game_features/Scene_display/QQ空间 (3).png") no-repeat;
+    background-size: cover;
+}
+.li4:hover{
+    background: url("../../../images/lead/qq空间.png") no-repeat;
+    background-size: cover;
+}
+.li6{
+    background: url("../../../images/Game_features/Scene_display/更多.png") no-repeat;
+    background-size: cover;
+}
+.li6:hover{
+    background: url("../../../images/lead/更多.png") no-repeat;
+    background-size: cover;
+}
+.li5{
+    background: url("../../../images/Game_features/Scene_display/腾讯微博.png") no-repeat;
+    background-size: cover;
+}
+.li5:hover{
+    background: url("../../../images/lead/腾讯微博.png") no-repeat;
+    background-size: cover;
+}
+#share-more{
+    display: none;
+    width:22px;
+    position: absolute;
+    top:25px;
+    right:-20px;
+    background: red;
+}
+#share-more ul{
+    position: absolute;!important;
+    width:198px;
+    height: 64px;
+    z-index:99;
+    background: #fff;
+    padding:2px;
+    border:1px solid #c2c2c2;
+    overflow: hidden;
+}
+#share-more li{
+    float: left;
+    width:89px;
+    height: 24px;
+    margin-right:5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    list-style: none;
+
+}
+#share-more li a{
+    width:89px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+    display: inline-block;
+}
+#share-more i{
+    position: relative;
+    float: left;
+    height: 22px;
+    width:22px;
+    margin-top:3px;
+}
+#share-more span{
+    height:25px;
+    padding-left:5px;
+    line-height: 25px;
+    float: left;
+    text-align: left;
+}
+#share-more i.a1{
+    background:url("../../../images/Game_features/Game_background/人人网.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a2{
+    background:url("../../../images/Game_features/Game_background/qq-oc.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a3{
+    background:url("../../../images/Game_features/Game_background/icon－豆瓣－彩色.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a4{
+    width:17px;
+    height:17px;
+    background:url("../../../images/Game_features/Game_background/贴吧.png")no-repeat;
+    background-size: cover;
+}
+#NIE-copyRight {
+    background: #0c0c0c;
+    color: #939393;
+    padding: 20px 0 40px
+}
+
+#NIE-copyRight a {
+    color: #e23a3f
+}
+#awwward{
+    left:0;
+    position:absolute;top:60px;
+    width:90px;
+    height:135px;
+    overflow: hidden;
+    z-index: 999;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.awwwrd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 90px;
+    height: 135px;
+    text-indent: -99px;
+    background-image: url("../../../images/Game_features/Scene_display/awwwards.png");
+    background-repeat: no-repeat;
+    background-size: 90px 135px
+}

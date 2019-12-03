@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    background:#fdfdfd url("../../../public/images/login/bj.jpg") no-repeat center 45px;
+}
+#toptb{
+    width:100%;
+    height:45px;
+    background-color:#333;
+}
+.wp{
+     width:1200px;
+     margin:0 auto;
+ }
+.z{
+    float:left;
+}
+#toptb a{
+    color:#999;
+    height:45px;
+    line-height:45px;
+    font-size:12px;
+    padding:0 4px;
+}
+.y{
+    float:right;
+}
+.cts_tb .schf{
+    display:inline-block;
+    margin-top:8px;
+    float:left;
+    position:relative;
+}
+.cts_tb input{
+    width:200px;
+    height:18px;
+    border-radius:100px;
+    background-color:#bbb;
+    padding:5px 10px;
+    border:none;
+}
+.cts_tb .prompt{
+    color:#FFF;
+    line-height:45px;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+}
+.cts_tb button{
+    position:absolute;
+    top:0;
+    right:10px;
+    background:none;
+    border:0;
+    cursor:pointer;
+}
+.cts_tb .icon{
+    background:url("../../../public/images/login/toptb-icon.png") no-repeat;
+    width:22px;
+    height:30px;
+    display:inline-block;
+    margin-right:3px;
+}
+.cts_tb .icon_search{
+    background-position:-44px -2px;
+}
+.cts_tb a{
+    margin-right:12px;
+}
+.switchwidth{
+    display:inline-block;
+    width:23px;
+    height:18px!important;
+    background:url("../../../public/images/login/switch_width.png") no-repeat 100% 0;
+    margin-top:5px;
+}
+.hdc{
+    height:180px;
+    /*background-color:palegreen;*/
+}
+#nv{
+    height:45px;
+    background-color:#3e3838;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    margin-bottom:10px;
+}
+#nv .nv_wrap{
+    height:45px;
+    position:relative;
+    margin:0 15px;
+}
+#nv li{
+    float:left;
+    list-style: none;
+}
+#nv li a{
+    display:block;
+    height:45px;
+    /*background-color:palevioletred;*/
+    padding:0 30px;
+    text-decoration: none;
+    color:#fff;
+    line-height:45px;
+}
+#nv li a:hover{
+    background-color:#ae0500;
+}
+#nv .checkin{
+    display:block;
+    width:60px;
+    height:28px;
+    background-color:#f2f0f1;
+    position:absolute;
+    right:0;
+    top:10px;
+    line-height:28px;
+    border-radius: 3px;
+    color:#d9470e;
+    text-align: center;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration: none;
+}
+#nv .checkin:hover{
+    background-color:#ddd;
+}
+#nv #qmenu{
+    display:block;
+    width:100px;
+    height:28px;
+    position:absolute;
+    top:10px;
+    right:80px;
+    background:url("../../../public/images/login/qmenu .png") no-repeat;
+    text-align: center;
+    line-height: 28px;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+}
+#nv #qmenu:hover{
+    background-position:0 -28px;
+}
+.wp #wp{
+    background:#efefef;
+    padding-bottom:10px;
+}
+#wp .wp{
+    width:auto;
+    height:510px;
+    background-color:#efefef;
+    border:1px solid #E8E8E8;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.bm_h{
+    height:31px;
+    background:#EBEBEB;
+    border-top:1px solid #FFF;
+    padding:0 10px;
+    line-height:31px;
+    white-space:nowrap;
+}
+.xs2{
+    font-size:14px;
+}
+.y{
+    float:right;
+    font-size:12px;
+}
+.xi2{
+    color:#de4d1b;
+}
+a{
+    text-decoration: none;
+}
+.flb{
+    height:20px;
+    padding:10px 10px 8px;
+}
+.m_gmlg{
+    width:346px;
+    background-color:#fff;
+    padding:17px 37px;
+}
+.inputbox{
+    height:44px;
+    background-color:#fff;
+    border:1px solid #c5cddb;
+    margin-bottom:20px;
+}
+.u-logo{
+    width:21px;
+    padding:0 5px 0 10px;
+    float:left;
+}
+.u-logo div{
+    width:22px;
+    height:24px;
+    display:inline-block;
+    margin-top:10px;
+}
+.u-logo-img1{
+    background:url("../../../public/images/login/xb.png") no-repeat;
+}
+.u-logo .u-logo-img1{
+    background-position:-251px -86px;
+}
+.inputbox input{
+    width:260px;
+    height:43px;
+    padding:0 0 0 8px;
+    border:0;
+    outline:0;
+    font-size:16px;
+}
+.u-logo-img2{
+    background:url("../../../public/images/login/xb.png") no-repeat;
+}
+.u-logo .u-logo-img2{
+    background-position:-291px -86px;
+}
+.ts{
+    width:300px;
+    height:20px;
+    /*background-color:paleturquoise;*/
+    margin-top:-10px;
+    margin-bottom:10px;
+    color:red;
+    font-size:12px;
+    padding-left:5px;
+    line-height:20px;
+}
+.loginbox{
+    margin-bottom:12px;
+}
+.u-loginbtn{
+    height:42px;
+    background:#23b260;
+    display:block;
+    text-align:center;
+    color:#D2FFE5;
+    line-height:42px;
+    font-size:18px;
+}
+.m-unlogin{
+    height:16px;
+}
+.m-unlogin .b-unlogn{
+    width:104px;
+    border-right:1px solid #ccc;
+    float:left;
+    margin-right:8px;
+}
+.u-checkbox{
+    width:14px;
+    height:14px;
+    display:block;
+    float:left;
+}
+.un-login{
+    width:14px;
+    height:14px;
+    cursor:pointer;
+}
+.m-unlogin .b-unlogn label{
+    display:block;
+    float:left;
+    font-size:12px;
+    padding-left:8px;
+    color:#999;
+    cursor:pointer;
+}
+.forgetpwd{
+    float:left;
+    font-size:12px;
+    color:#999;
+}
+.u-regbtn{
+    float:right;
+    font-size:12px;
+    color:#999;
+}
+#ft{
+    width:100%;
+    background-color:#1d1c19;
+    margin-top:20px;
+    padding:20px 0;
+    color:#999;
+    font-size:12px;
+    line-height:1.8;
+}
+.ncp{
+    width:832px;
+    margin:0 auto;
+    padding:30px 0;
+    position:relative;
+}
+#ft a{
+    color:#999;
+}

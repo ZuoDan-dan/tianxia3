@@ -1,0 +1,558 @@
+*{
+    margin:0 auto;
+    padding:0 ;
+}
+body{
+    height:100%;
+    font-family: "宋体";
+    font-size:22px;
+    line-height: 22px;
+}
+#main{
+    max-width: 1680px;
+    min-width: 960px;
+    position:relative;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+#top{
+    width:1680px;
+    margin: 0 auto;
+    height:68px;
+    background:url("../../../images/Game_features/Game_background/tx3_bg.jpg") repeat-x;
+}
+.top-main{
+    width:960px;
+    height:100px;
+    margin-left:200px;
+    clear: both;
+    zoom: 1;
+    position: relative;
+}
+.top-logo-btu{
+    width:370px;
+    height:70px;
+    position: absolute;
+    top:0;
+    left:0;
+    text-indent: -9999px;
+    background:url("../../../images/Game_features/Game_background/tx3_logo.v1.png") no-repeat;
+}
+.ulLog{
+    float: right;
+}
+.liLog{
+    width:68px;
+    height:68px;
+    position: relative;
+    background:url("../../../images/Game_features/Game_background/tx3_lbg.jpg") repeat-x;
+}
+.ulLog li{
+    float: left;
+    height:68px;
+    display: inline-block;
+}
+.ulLog li a{
+    font-size: 14px;
+    color: #dfdfdf;
+    text-decoration: none;
+}
+.li2Log{
+    height:96px;
+    width:68px;
+    margin:28px 20px 0;
+    line-height: 96px;
+}
+.liLog a{
+    width:30px;
+    height:96px;
+    font-size: 14px;
+    margin: 28px 19px 0;
+    text-align: center;
+    line-height: 96px;
+}
+#wrap-1{
+    position: relative;
+    width:1680px;
+    margin:0 auto;
+    height:141px;
+    background: url("../../../images/Game_features/Game_background/bg1_11a9a69.jpg") no-repeat;
+    background-position: -167px 0;
+}
+#wrap-main{
+    width:100%;
+    height:2460px;
+    overflow: hidden;
+    position: relative;
+}
+.wrap-1-content{
+    width:960px;
+    height:141px;
+    position:relative;
+    margin-left:200px;
+}
+.wrap-1-content h1{
+    float:left;
+    width:190px;
+    height:45px;
+    margin:50px 10px 0;
+}
+.wrap-1-content h1 a{
+    width:190px;
+    height:45px;
+    display: block;
+}
+.wrap-1-form{
+    float:left;
+    width:560px;
+    height:65px;
+    margin:55px 10px 0;
+
+}
+.inpTxtbg{
+    float:left;
+    width:405px;
+    height:38px;
+    margin:2px 5px 0 0 ;
+    background: url("../../../images/Game_features/Game_background/images.png") no-repeat;
+}
+.wrap-1-form .txt-inp{
+    float:left;
+    width:390px;
+    height:18px;
+    padding:5px 0;
+    margin:5px;
+    border: none;
+    line-height: 48px;
+    font-size: 14px;
+    background: url("http://res.nie.netease.com/comm/blank.gif") repeat;
+}
+.inpBut{
+    float: left;
+    width:87px;
+    height:38px;
+    overflow: hidden;
+    border:none;
+    text-indent: -9999px;
+    background: url("../../../images/Game_features/Game_background/tx3_btn_search.jpg") no-repeat;
+}
+.wrap-main-content{
+    width:800px;
+    margin-top:10px;
+    margin-left:200px;
+    position: relative;
+}
+.dMain{
+    height:22px;
+    margin-left:10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.dMain a{
+    height:22px;
+    text-decoration: none;
+    line-height: 10px;
+    color: black;
+}
+.dMain a:hover{
+    color: red;
+}
+.dMain a.last{
+    color: red;
+}
+.wrap-main-txt{
+    float: left;
+    position: relative;
+    width:710px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+
+}
+.txt-detail{
+    width:650px;
+    margin:15px 29px 30px;
+    font-size: 14px;
+    line-height:25px;
+    color: #000;
+    position: relative;
+}
+.aEdit{
+    width:70px;
+    height: 28px;
+    position: absolute;
+    padding: 0 0 0 32px;
+    background: url("../../../images/Game_features/Game_background/images.png") no-repeat 0 -50px;
+    right:0px;
+    top:5px;
+    line-height:28px;text-decoration: none;
+    color: #6c6c6c;
+}
+.txt1,.txt2{
+    height:40px;
+    position: relative;
+}
+.txt1 h1{
+    line-height: 40px;
+    float: left;
+}
+.txt2{
+    height:20px;
+    margin:20px 0 30px;
+    font-size:12px;
+}
+.txt-share{
+    float: right;
+}
+#txt-share{
+    width:560px;
+    float: left;
+    margin-top:26px;
+    font-size:18px;
+    line-height: 36px;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+#txt-share ul li{
+    width:36px;
+    height:36px;
+}
+.txt-share span{
+    float: left;
+}
+.txt-share ul{
+    float: left;
+    font-weight: 400;
+    text-align: left;
+}
+.txt-share ul li{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    list-style: none;
+    float: left;
+}
+.txt-share ul li a{
+   display: block;
+    width:20px;
+    height:20px;
+    font-size: 20px;
+    line-height: 20px;
+    list-style: none;
+    float: left;
+
+}
+.li1{
+    background: url("../../../images/lead/微信.png") no-repeat;
+    background-size: cover;
+}
+.li1:hover{
+    background: url("../../../images/lead/微信 (1).png") no-repeat;
+    background-size: cover;
+}
+.li2{
+    background: url("../../../images/lead/易信.png") no-repeat;
+    background-size: cover;
+}
+.li2:hover{
+    background: url("../../../images/lead/易信 (1).png") no-repeat;
+    background-size: cover;
+}
+.li3{
+    background: url("../../../images/lead/微博 .png") no-repeat;
+    background-size: cover;
+}
+.li3:hover{
+    background: url("../../../images/lead/微博 (1).png") no-repeat;
+    background-size: cover;
+}
+.li4{
+    background: url("../../../images/lead/qq空间.png") no-repeat;
+    background-size: cover;
+}
+.li4:hover{
+    background: url("../../../images/lead/qq空间 (1).png") no-repeat;
+    background-size: cover;
+}
+.li6{
+    background: url("../../../images/lead/更多.png") no-repeat;
+    background-size: cover;
+}
+.li6:hover{
+    background: url("../../../images/lead/更多 (1).png") no-repeat;
+    background-size: cover;
+}
+.li5{
+    background: url("../../../images/lead/腾讯微博.png") no-repeat;
+    background-size: cover;
+}
+.li5:hover{
+    background: url("../../../images/lead/腾讯微博 (1).png") no-repeat;
+    background-size: cover;
+}
+#share-more{
+    display: none;
+    width:22px;
+    position: absolute;
+    top:25px;
+    right:-20px;
+    background: red;
+}
+#share-more ul{
+    position: absolute;!important;
+    width:198px;
+    z-index:99;
+    background: #fff;
+    padding:2px;
+    border:1px solid #c2c2c2;
+    overflow: hidden;
+}
+#share-more li{
+    float: left;
+    width:89px;
+    height: 20px;
+    margin-right:5px;
+    overflow: hidden;
+    list-style: none;
+    padding: 5px 0;
+
+}
+#share-more li a{
+    width:89px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+    display: inline-block;
+}
+#share-more i{
+    position: relative;
+    float: left;
+    height: 22px;
+    width:22px;
+    margin-top:3px;
+}
+#share-more span{
+    height:25px;
+    padding-left:5px;
+    line-height: 25px;
+    float: left;
+text-align: left;
+}
+#share-more i.a1{
+    background:url("../../../images/Game_features/Game_background/人人网.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a2{
+    background:url("../../../images/Game_features/Game_background/qq-oc.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a3{
+    background:url("../../../images/Game_features/Game_background/icon－豆瓣－彩色.png")no-repeat;
+    background-size: cover;
+}
+#share-more i.a4{
+    width:17px;
+    height:17px;
+    background:url("../../../images/Game_features/Game_background/贴吧.png")no-repeat;
+    background-size: cover;
+}
+.txt-content{
+    width:650px;
+    font-size:14px;
+    line-height: 25px;
+}
+.txt-content p{
+    margin-top:26px;
+}
+.sContent{
+    float:left;
+    width:280px;
+    position: relative;
+    margin-bottom: 29px;
+}
+.a{
+    border-bottom:1px solid #E5E5E5;
+    height: 35px;
+    margin:15px 0;
+    line-height: 35px;
+    font-weight: bold;
+}
+.relax-data{
+    margin-top: 14px;
+    clear: both;
+}
+.relax-data li{
+    width:128px;
+    height: 22px;
+    line-height: 22px;
+    font-size:12px;
+    overflow: hidden;
+    padding-left: 12px;
+    float:left;
+    background: url("../../../images/Game_features/Game_background/circle.gif") no-repeat 0 5px;
+}
+#pVote{
+    width:650px;
+    height:82px;
+    border-top:1px dashed #333;
+    margin-top:240px;
+}
+.pVote-li{
+    height:56px;
+    width:330px;
+  position: relative;
+    margin: 13px auto;
+}
+a.aVote{
+    height:56px;
+    width:130px;
+    float:left;
+    position: relative;
+    margin-right:30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFE65B;
+    font-weight: 700;
+}
+.aVote0{
+    background: url("../../../images/Game_features/Game_background/tx3_good.jpg") no-repeat -130px 0;
+}
+.aVote0:hover{
+    background: url("../../../images/Game_features/Game_background/tx3_good.jpg") no-repeat 0 0;
+}
+.aVote1{
+    background: url("../../../images/Game_features/Game_background/tx3_good.jpg") no-repeat -390px 0;
+}
+.aVote1:hover{
+    background: url("../../../images/Game_features/Game_background/tx3_good.jpg") no-repeat -260px 0;
+}
+#article{
+    width:650px;
+    height:266px;
+    overflow: hidden;
+}
+#article .ulPicList0{
+    width:660px;
+    margin-top:14px;
+}
+#article .ulPicList0 li{
+    float: left;
+    width:210px;
+    list-style: none;
+    text-align: center;
+}
+.sImg{
+    width:202px;
+    height:160px;
+    padding:4px;
+    background: #dfdfdf;
+    display: block;
+    overflow: hidden;
+}
+.sImg a{
+    position: relative;
+    width:202px;
+    height:160px;
+    overflow: hidden;
+    color:#000;
+}
+#sTitle{
+    width:210px;
+    height:33px;
+    background: #dfdfdf;
+    line-height: 33px;
+    font-size: 12px;
+}
+#backTop{
+    position: fixed;
+    width:24px;
+    height:26px;
+    padding:5px;
+    border:1px solid #d2d2d2;
+    line-height: 13px;
+    font-size: 12px;
+    text-decoration: none;
+    right:380px;
+}
+#backTop:hover{
+    cursor: pointer;
+}
+.backTop{
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -webkit-transition:all 0.5s ease-in-out 0.3s;
+    -moz-transition:all 0.5s ease-in-out 0.3s;
+    -o-transition:all 0.5s ease-in-out 0.3s;
+    transition:all 0.5s ease-in-out 0.3s;
+}
+.ulEmail{
+    position: absolute;
+    width:243px;
+    padding:6px 0  12px;
+    background: #fff;
+    border:1px solid #e5e5e5;
+    color: #6c6c6c;
+    z-index: 75;
+    top:75px;
+    left:30px;
+    list-style: none;
+}
+.ulEmail li{
+    float: none;
+    padding:6px 27px 0;
+    font-size: 12px;
+}
+.ulEmail.aClose{
+    position:absolute;
+    width:9px;
+    height:9px;
+    background: url("../../../images/Game_features/Game_background/images.png") no-repeat -150px -100px;
+    border:1px solid #e5e5e5;
+    top:-1px;
+    right:-1px;
+}
+.aBut{
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.ulEmail li .inpTxt{
+    width:175px;
+    height:18px;
+    padding:5px;
+    border:1px solid #e5e5e5;
+    line-height: 18px;
+    color: #333;
+}
+.ulEmail li a{
+    float: right;
+    display: inline;
+    width:auto;
+    height:auto;font-size: 12px;
+    height:12px;
+    text-decoration: underline;
+    color: #003b5e;
+}
+.fr{
+    float: right;
+}
+.inpBut_1{
+    display: block;
+    width:177px;
+    height:28px;
+    font-size: 14px;
+    font-weight:800;
+    line-height: 28px;
+    background: #ffa72a;
+    border: #ffa72a;
+    color:#fff;
+}
+.inpBut_1:hover{
+    background: #bf7d1f;
+}

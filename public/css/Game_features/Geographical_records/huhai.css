@@ -1,0 +1,71 @@
+.branch_bar{
+width:960px;
+    height:120px;
+    overflow:hidden;
+    position:relative;
+margin-top:40px;
+    margin-bottom: 80px;
+}
+.branch_bar ul.branch{
+    width:875px;
+    height: 120px;
+    margin:0 auto;
+overflow: hidden;
+}
+.branch_bar .branch li{
+    float:left;
+}
+.branch_bar .branch li img{
+    width:165px;
+    margin:0 5px;
+    height:120px;
+}
+.prev{
+    position: absolute;
+    width: 19px;
+    height: 30px;
+    background: url("../../../images/Game_features/Geographical_records/huhai/arrow.png") no-repeat -36px -4px;
+    top: 50px;
+    right:0;
+    z-index: 99;
+    text-indent: -9999em;
+    cursor: pointer;}
+.next{
+    position: absolute;
+    width: 19px;
+    height: 30px;
+    background: url("../../../images/Game_features/Geographical_records/huhai/arrow.png") no-repeat -55px -4px;
+    left: 0;
+    top:50px;
+    z-index: 99;
+    text-indent: -9999em;
+    cursor: pointer;}
+p{
+    font-family: SimSun;
+    line-height: 20px;
+}
+#foot-share{
+    width:960px;
+    text-align: center;
+    margin: 50px auto 0;
+    padding-bottom:40px;
+    border-bottom: 1px dotted #ccc;
+    color:#000;
+}
+#foot-share a{
+    background: url("../../../images/Game_features/Geographical_records/huhai/icon.v2.png") no-repeat;
+    color: #000 !important;
+    font-size: 12px !important;
+    padding-right: 18px;
+    line-height: 18px;
+}
+#foot-share .NIE-share{
+    line-height: 18px!important;
+}
+a.NIE-share{
+    height:18px;
+    text-indent:18px;
+    font-size:12px;
+    text-decoration:none;
+    line-height:18px;
+display:inline-block;}

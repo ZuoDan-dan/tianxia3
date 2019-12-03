@@ -1,0 +1,474 @@
+#content1{
+    transition: .3s linear;
+}
+#content2{
+    transition: .3s linear;
+}
+#wrap1 {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url("../../../../public/images/Backtracking/Meetings/bgsub.jpg") repeat top center #f0eee9;
+}
+#wrap-bg11 {
+    width: 100%;
+    height: auto;
+    background: url("../../../../public/images/Backtracking/Meetings/love_bg1.jpg") center 0 no-repeat;
+}
+#wrap-bg12 {
+    width: 100%;
+    background: url("../../../../public/images/Backtracking/Meetings/love_bg2.jpg") center 410px no-repeat;
+}
+#wrap-bg13 {
+    width: 100%;
+    background: url("../../../../public/images/Backtracking/Meetings/love_bg3.jpg") center 871px no-repeat;
+}
+#center {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+#header {
+    position: relative;
+    height: 866px;
+    z-index: 1;
+}
+.sub_header {
+    height: 329px!important;
+}
+.Logo {
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 15px;
+    width: 152px;
+    height: 73px;
+    text-indent: -9999px;
+}
+.share_bg{
+    position: absolute;
+    width: 215px;
+    top: 21px;
+    left: 929px;
+    padding-left: 63px;
+    height: 32px;
+    z-index: 10;
+    float: left;
+    padding-top: 3px;
+    background: url("../../../../public/images/Backtracking/Meetings/share_bg.png") no-repeat;
+}
+.share_box{
+    width: 100%;
+}
+.share_box li{
+    list-style: none;
+}
+.share-iconBtn{
+    width: 140px;
+    height: 30px;
+    opacity: 0.5;
+    float: left;
+}
+.share-iconBtn li{
+    width: 28px;
+    height: 30px;
+    float: left;
+}
+.share-iconBtn li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.share-more{
+    width: 28px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+.share-more ul{
+    width: 202px;
+    height:188px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    display: block;
+    background-color: #fff;
+    padding-left: 2px;
+    display: none;
+}
+.share-more ul li{
+    float: left;
+    width: 99px;
+    overflow: hidden;
+}
+.share-more a{
+    height: 14px;
+    width: 87px;
+    padding: 5px;
+    line-height: 12px;
+    float: left;
+    text-indent: 25px;
+    color: #333;
+    font-size: 12px;
+    border: 1px #fff solid;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    background: url("../../../../public/images/Backtracking/Meetings/icon.v5.png") no-repeat;
+}
+.share-more .NIE-share-btn23{
+    background-position: 5px -348px;
+}
+.share-more .NIE-share-btn22{
+    background-position: 5px -323px;
+}
+.share-more .NIE-share-btn2{
+    background-position: 5px -23px;
+}
+.share-more .NIE-share-btn1{
+    background-position: 5px 2px;
+}
+.share-more .NIE-share-btn8{
+    background-position: 5px -173px;
+}
+.share-more .NIE-share-btn3{
+    background-position: 5px -48px;
+}
+.share-more .NIE-share-btn24{
+    background-position: 5px -473px;
+}
+.share-more .NIE-share-btn4{
+    background-position: 5px -73px;
+}
+.share-more .NIE-share-btn6{
+    background-position: 5px -123px;
+}
+.share-more .NIE-share-btn7{
+    background-position: 5px -148px;
+}
+.share-more .NIE-share-btn11{
+    background-position: 5px -248px;
+}
+.share-more .NIE-share-btn13{
+    background-position: 5px -298px;
+}
+.share-more .NIE-share-btn14{
+    background-position: 5px -448px;
+}
+.share-more .NIE-share-btn21{
+    background-position: 5px -423px;
+}
+.share-more ul li a:hover{
+    color: #000;
+    background-color: #f0f0f0;
+    border-color: #e0e0e0;
+    text-decoration: none;
+}
+#meet_content{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    z-index: 2;
+    background: url('../../../../public/images/Backtracking/Meetings/main_line1.jpg') repeat-y 280px top;
+}
+#meet_content .nav_time {
+    float: left;
+    width: 280px;
+}
+#meet_content .menu_list {
+    float: right;
+    width: 160px;
+}
+#meet_content .menu_head, #meet_content .btn_gohome {
+    height: 45px;
+    line-height: 43px;
+    padding-top: 8px;
+    font-size: 24px;
+    color: #6b6b6b;
+    cursor: pointer;
+    position: relative;
+    background: url('../../../../public/images/Backtracking/Meetings/sub_nav1.png') no-repeat right bottom;
+    text-align: center;
+}
+#meet_content .menu_head.current {
+    height: 50px;
+    color: #ff8f3c;
+    background: url('../../../../public/images/Backtracking/Meetings/sub_nav2.png') no-repeat right bottom;
+    text-align: left;
+}
+#meet_content .menu_body {
+    height: auto;
+    text-align: left;
+}
+#meet_content .menu_body a {
+    line-height: 33px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+a {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+.sub_main .menu_body a span {
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sub_right{
+    float: left;
+    width: 828px;
+    position: relative;
+    border-left: 3px solid #6b6b6b;
+    box-sizing: border-box;
+}
+.title_box{
+    height: 81px;
+    overflow: hidden;
+    padding-left: 17px;
+    border-bottom: 2px solid #6b6b6b;
+    font-size: 24px;
+}
+.title_box .time{
+    color: #ff8f3c;
+    margin-top: 22px;
+    line-height: 28px;
+}
+.title_box .tit {
+    line-height: 28px;
+    font-weight: 700;
+    color: #5a5a5a;
+}
+.sub_top{
+    width:100%;
+    margin-top: 19px;
+}
+.sub_top .img_box {
+    width: 326px;
+    height: 201px;
+    float: left;
+    position: relative;
+    margin-left: 17px;
+}
+.sub_top .inf_box {
+    width: 466px;
+    height: 201px;
+    margin-left: 362px;
+    position: relative;
+}
+.sub_top .inf_box p{
+    line-height: 26px;
+    width: 100%;
+}
+.sub_top .inf_box p.title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #5a5a5a;
+}
+.sub_top .inf_box p.new {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.inf_box .btn_box {
+    text-align: right;
+}
+.inf_box .btn {
+    width: 126px;
+    height: 26px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 14px;
+    text-indent: -9999px;
+}
+.btn span{
+    display: none;
+}
+.btns {
+    background: url("../../../../public/images/Backtracking/Meetings/btns.png") no-repeat;
+}
+.renav {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.renav li {
+    height: 28px;
+    line-height: 28px;
+}
+.sub_title {
+    padding-top: 66px;
+}
+.sub_title h4 {
+    width: 144px;
+    padding-right: 10px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: url("../../../../public/images/Backtracking/Meetings/sub_title.png") no-repeat;
+    font-size: 24px;
+    color: #ece2e1;
+    text-decoration: none;
+    display: inline-block;
+}
+.pic_box{
+    padding-top: 20px;
+}
+.pic_box .page {
+    padding: 5px 0 10px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.pic_box .page span {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.scrollV {
+    width: 644px;
+    position: relative;
+    margin: 0 auto;
+    height: 334px;
+}
+.scroll_box{
+    width: 539px;
+    margin: 0 auto;
+    position: relative;
+    height: 334px;
+    overflow: hidden;
+}
+.scroll_box ul{
+    width: auto;
+    height: 334px;
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+.scroll_box ul li{
+    width: 539px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.scrollview-prev,.scrollview-next {
+    display: block;
+    width: 26px;
+    height: 90px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    background: url("../../../../public/images/Backtracking/Meetings/lr.png") no-repeat;
+}
+.scrollview-prev {
+    left: 0;
+    background-position: 0 0;
+}
+.scrollview-prev:hover{
+    background-position: 0 -100px;
+}
+.scrollview-next{
+    right: 0;
+    background-position: -50px 0;
+}
+.scrollview-next:hover{
+    background-position: -50px -100px;
+}
+.weibo{
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 828px;
+    height:auto;
+}
+.foot {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    background: #000;
+}
+.foot_box {
+    color: #ea4438;
+}
+.foot_box a{
+    color: #ea4438;
+}
+.foot_inner {
+    text-align: center;
+}
+.foot_inner{
+    width: 840px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    font-family: SimSun;
+    line-height: 20px;
+    display: block;
+}
+i{
+    font-style: normal;
+}
+.foot-logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 280px;
+}
+.foot-i1{
+    width: 444px;
+}
+.foot-i2{
+    height: 28px;
+    line-height: 28px;
+
+}
+.foot-nav{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 6px;
+    position: relative;
+    z-index: 1;
+    font-family: SimSun;
+    width: 450px;
+}
+.foot-nav a.foot-guardianship {
+    display: inline-block;
+    padding: 2px;
+    color: #fff;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    top: 21px;
+}
+.gotop {
+    width: 36px;
+    height: 35px;
+    cursor: pointer;
+    opacity:0;
+    transition:opacity .3s linear;
+    -moz-transition:opacity .3s linear;
+    -webkit-transition:opacity .3s linear;
+    -ms-transition:opacity .3s linear;
+    text-indent: -9999px;
+    background: url("../../../../public/images/Backtracking/Meetings/gotop.png") no-repeat;
+    position: fixed;
+    bottom: 190px;
+    left: 50%;
+    margin-left: 520px;
+    z-index: 999;
+}
+.gotop:hover{
+    background-position:-40px 0;
+}

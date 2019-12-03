@@ -1,0 +1,810 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main-con{
+    width:100%;
+    position:relative;
+}
+.container{
+    width: 1000px;
+    position: relative;
+    margin:auto;
+}
+.navbar{
+    width: 100%;
+    background-color:#fbfbfb;
+    height: 55px;
+    position: relative;
+    margin-top:0;
+}
+.navbar-header{
+    position: absolute;
+}
+#NIE-topBar-news {
+    height: 54px;
+    position: absolute;
+    z-index: 13;
+    width: 420px;
+    left: 145px;
+    padding-left: 18px;
+    padding-top: 0;
+    display: block;
+}
+#NIE-topBar-abc-b{
+    position: absolute;
+    top:55px;
+    left:-135px;
+    display: none;
+}
+.nav-mid{
+    position: absolute;
+    text-align: right;
+    height: 54px;
+    width:740px;
+    line-height: 54px;
+}
+.nav-mid a:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.nav-mid a{
+    text-decoration: none;
+    height: 52px;
+    padding: 0 12px;
+    color:#333;
+    display: inline-block;
+    transition: background ease-in-out 0.5s;
+    font-size: 12px;
+}
+.drn{
+    width: 120px;
+    height:54px;
+    position: absolute;
+    left: 760px;
+    line-height: 54px;
+    color:#bc2e2e ;
+    font-size: 12px;
+    text-align: center;
+}
+.drn:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.nav-right{
+    width:110px;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 55px;
+    font-size: 12px;
+    overflow: hidden;
+    -moz-overflow:hidden;
+}
+.nav-right_ul1{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    transition:all .5s ease-in-out  ;
+    opacity:1;
+    visibility:visible;
+}
+.nav-right_ul2{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    top:220px;
+    transition:all .5s ease-in-out  ;
+    opacity:1;
+}
+.nav-right a{
+    display: inline-block;
+    width:110px;
+    height: 55px;
+    text-decoration: none;
+    color: #333;
+    transition: background ease-in-out 0.5s;
+}
+.nav-right a:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.NIE-table{
+    width: 100%;
+    height:0;
+    /*height:467px;*/
+    position: absolute;
+    top:54px;
+    font-size: 12px;
+    background: #fdfefe;
+    overflow: hidden;
+    z-index: 1030;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+}
+.NIE-table ul{
+    list-style: none;
+}
+.NIE-nav{
+    width: 100%;
+    position: relative;
+}
+.NIE-nav li{
+    position: absolute;
+}
+#client{
+    left:0;
+    top:0;
+}
+#mobi{
+    left: 248px;
+    top:0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+#last_th{
+    left: 842px;
+    top:0;
+}
+.NIE-table b{
+    line-height: 39px;
+    color: #bc2e2e;
+    display: block;
+    width: 100%;
+    height: 39px;
+    font-size: 14px;
+    text-indent: 20px;
+    background: #ECECED;
+    overflow: hidden;
+    clear: both;
+    border-right:1px solid #E4E4E4 ;
+}
+.NIE-list{
+    position:absolute;
+    top:39px;
+}
+.NIE-list li{
+    border-right: 1px solid #eee;
+    height: 420px;
+    float: left;
+    padding: 10px 0 0 14px;
+    overflow: hidden;
+    position: relative;
+}
+.NIE-list p{
+    width: 227px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 700;
+    color: #626262;
+}
+.NIE-table a em {
+    font-weight: 400;
+    display: block;
+    line-height: 24px;
+    font-style: normal;
+}
+.NIE-topBar-1st,.NIE-topBar-hot,.NIE-topBar-new {
+    background: url("../../../images/index/hot-new-no.png") no-repeat;
+}
+.NIE-topBar-1st{
+    background-position: right  -267px;
+}
+.NIE-topBar-hot{
+    background-position: right -144px;
+}
+.NIE-topBar-new{
+    background-position: right -206px;
+}
+.NIE-table a {
+    width: 105px;
+    margin-left: 6px;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #9B9897;
+}
+.NIE-table .hot a{
+    width: 125px;
+}
+.NIE-table a:hover{
+    color: #bc2e2e;
+}
+.long_news{
+    width: 133px;
+    height: 384px;
+    float: left;
+}
+.long_news a{
+    width: 125px;
+}
+.short_news{
+    width: 116px;
+    height: 384px;
+    float: left;
+}
+.short_news a{
+    width: 105px;
+}
+.mini_news{
+    width: 90px;
+    height: 384px;
+    float: left;
+}
+.mini_news a{
+    width:82px;
+    margin-left: 5px;
+}
+.NIE-list .NIE-topBar-more{
+    width: 10px;
+    height: 95px;
+    /*height: 92px\9;*/
+    display: block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.NIE-list .NIE-topBar-more:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.mobi{
+    left: 30px!important;
+    width: 823px!important;
+    border-left: 1px solid #E4E4E4!important;
+    box-shadow: -1px 0 1px #eee!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+#hot{
+    position: absolute;
+    left:258px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+.hot{
+    left: 30px!important;
+    background: #fdfefe;
+    border-left: 1px solid #E4E4E4!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+#news{
+    position: absolute;
+    left: 406px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+.news{
+    left: 180px!important;
+    width: 663px!important;
+    background: #fdfefe;
+    border-left: 1px solid #E4E4E4!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+.fuzhu{
+    position: absolute;
+    left: 595px;
+}
+.extend{
+    height: 467px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+}
+.hid{
+    height: 0;
+    -webkit-transition: all 0.01s ease-in;
+    -moz-transition: all 0.01s ease-in;
+    -ms-transition: all 0.01s ease-in;
+}
+#wrap{
+    position:relative;
+    margin-top:-19px;
+    background:url("../../../images/Book/Beginner_guide/newPerson_bg.jpg") no-repeat 50% 0;
+}
+#main{
+    position:relative;
+    width:960px;
+    height:3600px;
+    margin:0 auto;
+}
+#header{
+    width:960px;
+    height:395px;
+    margin:0 auto;
+    position:relative;
+}
+#top-nav{
+    position:absolute;
+    right:25px;
+    top:8px;
+    font-size:12px;
+}
+#top-nav li{
+    float:left;
+    margin-left:20px;
+}
+#top-nav .middot{
+    float:left;
+    margin:0 5px;
+}
+#top-nav a{
+    text-decoration:none;
+    color:#000;
+}
+#top-nav a:hover{
+    color:#ff4e00;
+    text-decoration: underline;
+}
+li{
+    list-style:none;
+}
+#center{
+    width:960px;
+    height:3190px;
+    margin:0 auto;
+    padding-top:0;
+    position:relative;
+}
+#mid-nav li{
+    height:110px;
+    display:table-cell;
+    text-align:center;
+    line-height:110px;
+}
+#mid-nav .png{
+    background:url("../../../images/Book/Beginner_guide/xi.png") no-repeat left center;
+}
+#mid-nav .current{
+    color:#f60;
+}
+#mid-nav a{
+    width:160px;
+    height:110px;
+    display:block;
+    text-decoration: none;
+    font-size:22px;
+    font-weight:700;
+    font-family: microsoft yahei;
+    color:#c1c1c1;
+}
+#mid-nav a:hover{
+    color:#f60;
+}
+div,ul,p,h3,h4{
+    margin:0;
+    padding:0;
+}
+#pre-word{
+    width:920px;
+    background:#f2f2f2;
+    height:94px;
+    margin-top:80px;
+}
+.pre-title{
+    width:166px;
+    height:84px;
+    background:#727272;
+    text-align:center;
+    font-size:30px;
+    line-height:36px;
+    color:#fff;
+    font-weight:700;
+    font-family: microsoft yahei;
+    padding-top:10px;
+    position:absolute;
+}
+.pre-intro{
+    width:733px;
+    height:42px;
+    color:#8e8e8e;
+    font-size:14px;
+    line-height:24px;
+    margin-left:176px;
+    padding:25px;
+    float:left;
+}
+p{
+    display:block;
+}
+.intro-part{
+    width:920px;
+    height:353px;
+    margin-top:42px;
+}
+.part-title{
+    height:70px;
+    border-bottom:2px solid #c3c3c3;
+}
+.part-title p{
+    color:#6d6d6d;
+    font-size:14px;
+    font-family: microsoft yahei;
+    font-weight:700;
+    line-height:24px;
+    padding-top:5px;
+}
+.part-title h3{
+    color:#ff5400;
+    font-size:30px;
+    font-family: microsoft yahei;
+    font-weight:700;
+    line-height:36px;
+}
+.intro-part .num1{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px 0;
+}
+.part-cont{
+    width:926px;
+    height:268px;
+    margin-top:20px;
+    background-color:#f2f2f2;
+    position:relative;
+}
+.part-cont .left{
+    width:423px;
+    height:268px;
+    background:#f2f2f2;
+    position:relative;
+    float:left;
+}
+.part-cont h4{
+    color:#4d5158;
+    font-size:20px;
+    font-weight:700;
+    font-family: microsoft yahei;
+    border-bottom:1px solid #cecece;
+    height:45px;
+    line-height:45px;
+    padding-left:25px;
+}
+.part-cont .left img{
+    float:left;
+    margin-right:8px;
+    margin-top:10px;
+}
+.part-cont .left p{
+    font-size:12px;
+    color:#6e6e6e;
+    margin-top:10px;
+    margin-right:10px;
+    line-height:24px;
+}
+.flr{
+    float:right;
+}
+.view-btn {
+    width: 95px;
+    height: 24px;
+    background: #ff5400;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+}
+.view-btn:hover{
+    color:#eee;
+    background:#f90;
+    text-decoration: none;
+}
+.intro-part .num2{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -70px;
+}
+.intro-part .num3{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -140px;
+}
+.intro-part .num4{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -210px;
+}
+.intro-part .num5{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -280px;
+}
+.intro-part .num6{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -350px;
+}
+.intro-part .num7{
+    background:url("../../../images/Book/Beginner_guide/num_bg.jpg") no-repeat 190px -420px;
+}
+#foot-share{
+    width:960px;
+    height:62px;
+    margin:50px auto 0;
+    border-bottom: 1px dotted #ccc;
+}
+.NIE-share{
+    height:40px;
+    width:510px;
+    position:relative;
+    left:225px;
+    top:5px;
+    display:inline-block;
+}
+.NIE-share .NIE-share-txt{
+    float:left;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+}
+.NIE-share .NIE-share-iconBtn{
+    float:left;
+}
+.NIE-share .NIE-share-iconBtn li{
+    margin-left:3px;
+    height:20px;
+    float:left;
+}
+.NIE-share .NIE-share-iconBtn #li1{
+    background:url("../../../images/Book/Beginner_guide/微信.png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li1:hover{
+    cursor:pointer;
+    background:url("../../../images/Book/Beginner_guide/微信 (1).png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li2{
+    background:url("../../../images/Book/Beginner_guide/易信.png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li2:hover{
+    cursor:pointer;
+    background:url("../../../images/Book/Beginner_guide/易信 (1).png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li3{
+    background:url("../../../images/Book/Beginner_guide/微博 .png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li3:hover{
+    cursor:pointer;
+    background:url("../../../images/Book/Beginner_guide/微博（1）.png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li4{
+    background:url("../../../images/Book/Beginner_guide/qq空间.png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #li4:hover{
+    cursor:pointer;
+    background:url("../../../images/Book/Beginner_guide/qq空间 (1).png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #more{
+    background:url("../../../images/Book/Beginner_guide/更多.png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share .NIE-share-iconBtn #more:hover{
+    cursor:pointer;
+    background:url("../../../images/Book/Beginner_guide/更多 (1).png") no-repeat ;
+    background-size:20px 20px;
+}
+.NIE-share a{
+    padding-right:10px;
+    color:#666;
+}
+.NIE-share6 .NIE-share-iconBtn a:hover{
+    color:#ff5400;
+    text-decoration: none;
+}
+.NIE-share6 .NIE-share-iconBtn a span{
+    height:20px;
+    line-height:20px;
+    cursor:pointer;
+}
+.NIE-share6 .NIE-share-iconBtn a em{
+    margin-left:22px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-style: normal;
+    cursor:pointer;
+}
+.NIE-share6 .NIE-share-iconBtn li:hover{
+    color:#ff5400;
+}
+.NIE-share6 .NIE-share-more{
+    width:22px;
+    position:absolute;
+    top:25px;
+    right:30px;
+}
+.NIE-share-more ul{
+    width:198px;
+    border:1px solid #c2c2c2;
+    position:absolute;
+    padding:2px;
+}
+.NIE-share-more li{
+    width:96px;
+    height:25px;
+    float:left;
+    text-indent: 26px;
+}
+.NIE-share .NIE-share-more li a{
+    width:87px;
+    height:25px;
+    font-size:12px;
+    line-height:25px;
+}
+.NIE-share-more li a:hover{
+    text-decoration: none;
+}
+.NIE-share-more li:hover{
+    cursor:pointer;
+}
+#ren:hover,#ten:hover,#QQ:hover,#dou:hover,#bai:hover{
+    background-color:gainsboro;
+}
+#ren{
+    background:url("../../../images/Book/Beginner_guide/icon.png") no-repeat 5px -173px;
+}
+#ten{
+    background:url("../../../images/Book/Beginner_guide/icon.png") no-repeat 5px -48px;
+}
+#QQ{
+    background:url("../../../images/Book/Beginner_guide/icon.png") no-repeat 5px -473px;
+}
+#dou{
+    background:url("../../../images/Book/Beginner_guide/icon.png") no-repeat 5px -246px;
+}
+#bai{
+    background:url("../../../images/Book/Beginner_guide/icon.png") no-repeat 5px -448px;
+}
+#rSilder{
+    width:145px;
+    height:410px;
+    background:pink url("../../../images/Book/Beginner_guide/silder.jpg") no-repeat;
+    position:absolute;
+    top:580px;
+    right:2px;
+}
+.rSilder-con{
+    position:relative;
+    width:145px;
+    height:306px;
+    background-color:#434546;
+    top:104px;
+}
+#closeSilder{
+    position:relative;
+    top:-122px;
+    color:#ff5400;
+    cursor:pointer;
+    font-size:12px;
+}
+#rMenu h3{
+    color:#C1C1C1;
+    font-size:15px;
+    height:60px;
+    line-height:60px;
+    text-align: center;
+    cursor:pointer;
+    position:relative;
+    top:-16px;
+    font-weight:700;
+    background:url("../../../images/Book/Beginner_guide/silderDL.png") 10px bottom no-repeat;
+}
+#rMenu ul li{
+    position:relative;
+    top:-16px;
+    height:35px;
+    line-height:35px;
+    margin:0 24px;
+    border-bottom: 1px dotted #6b6b6b;
+}
+#rMenu ul li a{
+    color:#aeaeae;
+    font-size:12px;
+}
+#rMenu ul li a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+#goTop{
+    position:relative;
+    left:115px;
+    top:-14px;
+    text-decoration: underline;
+    color:#ff5400;
+    cursor:pointer;
+    font-size:12px;
+}
+#NIE-copyRight{
+    position: relative;
+    background: #fff;
+    color: #000;
+    height:120px;
+}
+.nie-copyright-new-inner{
+    width:840px;
+    text-align:left;
+    margin:0 auto;
+    padding:15px 0 10px;
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    min-width:280px
+}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;
+}
+.nie-cn-logo img{
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;
+}
+.nie-cn-nav{
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:relative;
+}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal;
+}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;
+}
+.nie-cn-nav a{
+    text-decoration:none;
+    color: #000;
+}
+.nie-cn-nav a:hover{
+    text-decoration:underline;
+}
+.nie-cn-nav a.nie-cn-huShip{
+    display:inline-block;
+    background-color:#610000;
+    color:#fff;
+    position:absolute;
+    z-index:2;
+    right:5px;
+    height:26px;
+    line-height:26px;
+    padding:0 5px;top:21px;
+}

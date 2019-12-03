@@ -1,0 +1,296 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    margin: 0 auto;
+    font-family:"微软雅黑";
+    line-height: 17px;
+    font-size: 12px;
+    color:#000;
+}
+a{
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+}
+i em{
+    font-style: normal;
+}
+body a{
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+}
+p{
+    margin: 0;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+.clearfix{
+
+}
+#main{
+    width: 100%;
+    height:100%;
+}
+#wrap{
+    max-width: 1920px;
+   min-width: 960px;
+    height:5350px;
+    background: #fff url("../../../images/Game_features/Geographical_records/huhai/tx_bg.jpg") no-repeat 50% 0;
+}
+.wrap-bg1{
+    width:100%;
+    height:100%;
+    float: left;
+    background: url("../../../images/Game_features/Geographical_records/huhai/bg_01.jpg") no-repeat 50% 504px;
+}
+.wrap-main{
+    width:960px;
+    margin:0 auto;
+    position: relative;
+}
+.header{
+    height:400px;
+    position: relative;
+    margin: 0 auto;
+}
+.top-logo{
+    display: block;
+    width:250px;
+    height:150px;
+    text-indent: -9999px;
+    top:0;
+    left:0;
+}
+#top-nav{
+    right:10px;
+    top:8px;
+    font-size:12px;
+    position: absolute;
+}
+#top-nav li{
+    float: left;
+    width:72px;
+    height:20px;
+    margin-left: 6px;
+    color: #c3c3c3;
+
+}
+#top-nav .circle{
+    float:left;
+    margin: 0 5px;
+}
+#top-nav a{
+    width:50px;
+    height:100%;
+    float:left;
+
+}
+#top-nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.center{
+    height:110px;
+    position: relative;
+    margin:0 auto;
+    overflow: hidden;
+}
+.ul-nav{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.ul-nav li{
+    width:96px;
+    height:110px;
+    text-align: center;
+    display: table-cell;
+    background: url("../../../images/Game_features/Geographical_records/huhai/nav_split.png") no-repeat left center;
+}
+.ul-nav .first{
+    background: none;
+}
+.ul-nav li a{
+    width:100%;
+    height:100%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    line-height: 110px;
+    color: #c3c3c3;
+}
+.ul-nav li a:hover{
+    color: coral;
+}
+#pre-word{
+     height:94px;
+     background: #f2f2f2;
+     margin-top:80px;
+ }
+.title-main{
+    width:166px;
+    height: 94px;
+    background: #727272;
+    float: left;
+}
+.pre-title{
+    color: #fff;
+    font-family: "微软雅黑";
+    margin: 11px 53px;
+    font-size: 30px;
+    font-weight: bold;
+    width:60px;
+    line-height: 36px;
+}
+.title-intro{
+    width:720px;
+    height:50px;
+    margin-top: 25px;
+    margin-left: 200px ;
+    font-size: 14px;
+    line-height:24px;
+    color: #8e8e8e;
+}
+.intro-part{
+    margin-top: 42px;
+}
+.part-title{
+    height:70px;
+    border-bottom: 2px solid #c3c3c3;
+    background: url("../../../images/Game_features/Geographical_records/huhai/numspr.jpg") no-repeat 90px 0;
+}
+.part-title p{
+    color:#6d6d6d;
+    font-size: 14px;
+    padding-top:5px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.part-title h3{
+    color: #ff5400;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+}
+.title-cont{
+    position: relative;
+    overflow: hidden;
+    height:410px;
+
+}
+.part-item-title{
+    height:64px;
+    background: #ededed url("../../../images/Game_features/Geographical_records/huhai/title_bg.jpg") repeat-x 0 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.title-cont h4{
+    color:#4d5158;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 25px;
+
+}
+.part-item-title h4{
+height: 34px;
+    line-height: 40px;
+    margin: 0;
+    color:#4d5158;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.part-item-desc{
+    height:24px;
+    padding-left: 25px;
+    line-height: 24px;
+    color:#6d6d6d;
+    margin-bottom:10px;
+}
+.part-item-cont{
+    height:320px;
+    margin: 15px 0;
+}
+.item-cont-txt{
+    width:320px;
+    float: left;
+}
+.item-cont-txt p{
+    height:22px;
+    text-align: center;
+    line-height: 22px;
+    color:#6d6d6d;
+}
+.item-cont-img{
+    width:600px;
+    height:422px;
+    float: left;
+}
+#rSlider{
+    position: absolute;
+    left:50%;
+    top:620px;
+    padding-top:70px;
+    margin-left: 510px;
+    text-align: right;
+}
+.rMenu{
+    width:158px;
+    height:420px;
+    background: #434546;
+    background-image: -webkit-linear-gradient(top, #434546, #202020);
+    background-image:    -moz-linear-gradient(top, #434546, #202020);
+    background-image:     -ms-linear-gradient(top, #434546, #202020);
+    background-image:      -o-linear-gradient(top, #434546, #202020);
+    background-image:         linear-gradient(to bottom, #434546, #202020);text-align: left;}
+.rMenu h3{
+    height: 60px;
+    text-align: center;
+    font:bold 18px/60px "microsoft yahei";
+    color: #C1C1C1;
+    background: url("../../../images/Game_features/Geographical_records/beiming/silderDL.png") 10px bottom no-repeat;cursor: pointer;}
+.rMenu div{display: none;}
+.rMenu ul li{
+    position: relative;
+    line-height: 35px;
+    overflow: hidden;
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px dotted #6b6b6b;
+    margin:0 30px;
+}
+.rMenu ul li a{
+    color: #aeaeae;
+    position: relative;
+}
+.rMenu ul li a i{
+    position: absolute;
+    left:-10px;
+    top:3px;
+    height: 0;
+    font-size: 0;
+    width: 0;
+    overflow:hidden;
+    border-width:3px 0 3px 3px;
+    border-color: transparent transparent transparent coral;
+    border-style: dashed dashed dashed solid;
+    display: none;}
+.rMenu ul li a.current,
+.rMenu ul li a:hover{color: coral;}
+.rMenu ul li a.current i,
+.rMenu ul li a:hover i{display: block;}
+.goTop{color: #ff5400;text-decoration: underline;cursor: pointer;}

@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+}
+#wrap-1{
+    position:relative;
+    width:100%;
+    height:68px;
+    background:url("../../../images/Tools/Encyclopedia/tx3_bg.jpg") repeat-x;
+}
+.aLogo{
+    position:absolute;
+    left:160px;
+    width:370px;
+    height:68px;
+    background:url("../../../images/Tools/Encyclopedia/tx3_logo.v1.png") no-repeat;
+}
+.ulLog{
+    position:absolute;
+    right:180px;
+    top:40px;
+    list-style:none;
+}
+.ulLog li a{
+    display:block;
+    height:30px;
+    width:60px;
+    margin-left:5px;
+    float:left;
+}
+ul li .current{
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+}
+ul li a{
+    color:#dfdfdf;
+    font-size:14px;
+    text-decoration: none;
+}
+ul li .current:hover{
+    text-decoration:none;
+}
+ul li a:hover{
+    text-decoration:underline;
+}
+.ulLoglist{
+    position:absolute;
+    left:900px;
+    top:68px;
+    width:243px;
+    height:180px;
+    background-color:#fff;
+    border:1px solid #e5e5e5;
+    list-style:none;
+    font-size:12px;
+    color:#6c6c6c;
+    z-index:100;
+}
+.ulLoglist li{
+    padding:10px 27px 0;
+}
+.aClose{
+    width:9px;
+    height:9px;
+    position:absolute;
+    right:0;
+    border:1px solid #e5e5e5;
+    background:url("../../../images/Tools/Encyclopedia/images.png") no-repeat -150px -100px;
+    cursor:pointer;
+}
+.inpTxt{
+    width:177px;
+    height:18px;
+    border:1px solid #e5e5e5;
+    color:#333;
+    padding:5px;
+    font-size:12px;
+}
+:focus{
+    outline:0;
+}
+.ulLoglist li a{
+    color:#003b5e;
+    font-size:12px;
+    text-decoration: underline;
+    padding:0;
+}
+.inputBut{
+    background:#2586eb;
+    border:1px solid #2586eb;
+    color:#fff;
+    width:177px;
+    height:28px;
+    cursor:pointer;
+    font-weight:800;
+}
+#wrap-2{
+    width:100%;
+    height:141px;
+    background:url("../../../images/Tools/Encyclopedia/tx3_cbg.jpg") no-repeat center;
+}
+#wrap-2 .aside{
+    width:660px;
+    height:150px;
+    margin-left:220px;
+}
+#wrap-2 a {
+    display: block;
+    width: 190px;
+    height: 40px;
+    z-index: 99;
+    float: left;
+    margin-top: 55px;
+}
+.inpTxt2{
+    width:320px;
+    height:37px;
+    margin-top:55px;
+    margin-left:30px;
+    top:60px;
+    left:405px;
+    float:left;
+    border:medium none;
+    padding-left:5px;
+}
+.inpBut{
+    width:87px;
+    height:38px;
+    margin-top:55px;
+    top:60px;
+    left:720px;
+    text-indent:-9999px;
+    cursor:pointer;
+    border:medium none;
+    background:url("../../../images/Tools/Encyclopedia/tx3_btn_search.jpg") no-repeat;
+}
+.inpBut:hover{
+    background:url("../../../images/Tools/Encyclopedia/tx3_btn_search_hover.jpg") no-repeat;
+}
+.nav{
+    position:relative;
+    width:100%;
+    height:77px;
+    background-color:#f29b1a;
+    margin:0 auto;
+    z-index:99;
+}
+.nav-con{
+    width:930px;
+    height:77px;
+    margin:0 auto;
+}
+.nav-con a{
+    width:82px;
+    height:18px;
+    float:left;
+    margin:9px 0;
+    text-align:center;
+    color:#fff;
+    border-left:1px solid #f5b250;
+    border-right:1px solid #d68b1d;
+    text-decoration: none;
+    transition:all 0.5s ease-in-out 0s;
+    font-size:16px;
+}
+.nav-con a:hover{
+    color:#744408;
+}
+#wrapper{
+    width:1000px;
+    height:auto;
+    margin:0 auto;
+}
+.title{
+    width:1000px;
+    height:59px;
+    background:url("../../../images/Tools/Encyclopedia/star.png") no-repeat 20px center;
+    border-bottom:1px solid #dddddd;
+    color:#6c6c6c;
+    font-size:23px;
+    line-height:59px;
+    padding-left:47px;
+    font-weight: 900;
+}
+.item{
+    width:1000px;
+    height:59px;
+    position: relative;
+}
+#fb{
+    height:220px;
+}
+#rc{
+    height:100px;
+}
+#zb{
+    height:85px;
+}
+.item_l{
+    position: absolute;
+    background:url("../../../images/Tools/Encyclopedia/item.png") no-repeat center center;
+    width:90px;
+    height:27px;
+    text-align:center;
+    line-height:27px;
+    font-size:14px;
+    color:#ffffff;
+    top:10px;
+    float:left;
+}
+.item_r{
+    position: absolute;
+    width:875px;
+    float:left;
+    left:134px;
+    top:5px;
+}
+.item_r a{
+    border-right:1px solid #dddddd;
+    color:#355485;
+    font-size:14px;
+    text-decoration: none;
+    font-family: "宋体";
+    height:16px;
+    line-height:16px;
+    padding:0 12px;
+    display:block;
+    float:left;
+    margin-top:10px;
+    font-weight: 600;
+}
+.item_r a:hover{
+    text-decoration: underline;
+}
+#NIE-copyRight{
+    position: relative;
+    background:#272727;
+    color: #fff;
+    height:120px;
+}
+.nie-copyright-new-inner{
+    width:840px;
+    text-align:left;
+    margin:0 auto;
+    padding:12px 0 0;
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    min-width:280px
+}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;
+}
+.nie-cn-logo img{
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;
+}
+.nie-cn-nav{
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:relative;
+}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal;
+}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;
+}
+.nie-cn-nav a{
+    text-decoration:none;
+    color:#fff;
+}
+.nie-cn-nav a:hover{
+    text-decoration:underline;
+    color:#ba1f29;
+}

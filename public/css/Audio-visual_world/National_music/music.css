@@ -1,0 +1,885 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    position: relative;
+    min-width: 1280px;
+    background: url('../../../images/Audio-visual_world/National_music/body_bg.jpg') 50% 55px no-repeat;
+}
+.container{
+    width: 1000px;
+    position: relative;
+    margin:auto;
+}
+.navbar{
+    width: 100%;
+    background-color:#fbfbfb;
+    height: 55px;
+    position: relative;
+    margin-top:0;
+}
+.navbar-header{
+    position: absolute;
+}
+#NIE-topBar-news {
+    height: 54px;
+    position: absolute;
+    z-index: 13;
+    width: 420px;
+    left: 145px;
+    padding-left: 18px;
+    padding-top: 0;
+    display: block;
+}
+#NIE-topBar-abc-b{
+    position: absolute;
+    top:55px;
+    left:-135px;
+    display: none;
+}
+.nav-mid{
+    position: absolute;
+    text-align: right;
+    height: 54px;
+    width:740px;
+    line-height: 54px;
+}
+.nav-mid a:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.nav-mid a{
+    text-decoration: none;
+    height: 52px;
+    padding: 0 12px;
+    color:#333;
+    display: inline-block;
+    transition: background ease-in-out 0.5s;
+    font-size: 12px;
+}
+.drn{
+    width: 120px;
+    height:54px;
+    position: absolute;
+    left: 760px;
+    line-height: 54px;
+    color:#bc2e2e ;
+    font-size: 12px;
+    text-align: center;
+}
+.drn:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.nav-right{
+    width:110px;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 55px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.nav-right_ul1{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    transition:all .5s ease-in-out  ;
+    opacity:1;
+    visibility:visible;
+}
+.nav-right_ul2{
+    position: absolute;
+    width:110px;
+    height: 110px;
+    top:220px;
+    transition:all .5s ease-in-out  ;
+    opacity:1;
+}
+.nav-right a{
+    display: inline-block;
+    width:110px;
+    height: 55px;
+    text-decoration: none;
+    color: #333;
+    transition: background ease-in-out 0.5s;
+}
+.nav-right a:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -moz-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+    background-image: -ms-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.NIE-table{
+    width: 100%;
+    height:0;
+    /*height:467px;*/
+    position: absolute;
+    top:54px;
+    font-size: 12px;
+    background: #fdfefe;
+    overflow: hidden;
+    z-index: 1030;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+}
+.NIE-table ul{
+    list-style: none;
+}
+.NIE-nav{
+    width: 100%;
+    position: relative;
+}
+.NIE-nav li{
+    position: absolute;
+}
+#client{
+    left:0;
+    top:0;
+}
+#mobi{
+    left: 248px;
+    top:0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+#last_th{
+    left: 842px;
+    top:0;
+}
+.NIE-table b{
+    line-height: 39px;
+    color: #bc2e2e;
+    display: block;
+    width: 100%;
+    height: 39px;
+    font-size: 14px;
+    text-indent: 20px;
+    background: #ECECED;
+    overflow: hidden;
+    clear: both;
+    border-right:1px solid #E4E4E4 ;
+}
+.NIE-list{
+    position:absolute;
+    top:39px;
+}
+.NIE-list li{
+    border-right: 1px solid #eee;
+    height: 420px;
+    float: left;
+    padding: 10px 0 0 14px;
+    overflow: hidden;
+    position: relative;
+}
+.NIE-list p{
+    width: 227px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 700;
+    color: #626262;
+}
+.NIE-table a em {
+    font-weight: 400;
+    display: block;
+    line-height: 24px;
+    font-style: normal;
+}
+.NIE-topBar-1st,.NIE-topBar-hot,.NIE-topBar-new {
+    background: url("../../../images/index/hot-new-no.png") no-repeat;
+}
+.NIE-topBar-1st{
+    background-position: right  -267px;
+}
+.NIE-topBar-hot{
+    background-position: right -144px;
+}
+.NIE-topBar-new{
+    background-position: right -206px;
+}
+.NIE-table a {
+    width: 105px;
+    margin-left: 6px;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #9B9897;
+}
+.NIE-table .hot a{
+    width: 125px;
+}
+.NIE-table a:hover{
+    color: #bc2e2e;
+}
+.long_news{
+    width: 133px;
+    height: 384px;
+    float: left;
+}
+.long_news a{
+    width: 125px;
+}
+.short_news{
+    width: 116px;
+    height: 384px;
+    float: left;
+}
+.short_news a{
+    width: 105px;
+}
+.mini_news{
+    width: 90px;
+    height: 384px;
+    float: left;
+}
+.mini_news a{
+    width:82px;
+    margin-left: 5px;
+}
+.NIE-list .NIE-topBar-more{
+    width: 10px;
+    height: 95px;
+    /*height: 92px\9;*/
+    display: block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.NIE-list .NIE-topBar-more:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.mobi{
+    left: 30px!important;
+    width: 823px!important;
+    border-left: 1px solid #E4E4E4!important;
+    box-shadow: -1px 0 1px #eee!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+#hot{
+    position: absolute;
+    left:258px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+.hot{
+    left: 30px!important;
+    background: #fdfefe;
+    border-left: 1px solid #E4E4E4!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+#news{
+    position: absolute;
+    left: 406px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+}
+.news{
+    left: 180px!important;
+    width: 663px!important;
+    background: #fdfefe;
+    border-left: 1px solid #E4E4E4!important;
+    -webkit-transition: all .3s ease-out!important;
+    -moz-transition: all .3s ease-out!important;
+    -ms-transition: all .3s ease-out!important;
+}
+.fuzhu{
+    position: absolute;
+    left: 595px;
+}
+.extend{
+    height: 467px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+}
+.hid{
+    height: 0;
+    -webkit-transition: all 0.01s ease-in;
+    -moz-transition: all 0.01s ease-in;
+    -ms-transition: all 0.01s ease-in;
+}
+.bg{
+    width: 100%;
+    height: 854px;
+    z-index: 10;
+    position: absolute;
+    top:55px;
+    background: url("../../../images/index/banner.jpg") scroll center top;
+}
+.header{
+    position: relative;
+    height: 412px;
+    background-color: black;
+    width:100%;
+}
+.switch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 412px;
+    width: 100%;
+    z-index: 1;
+    background-color: lightskyblue;
+}
+.switch a {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    height: 412px;
+    width: 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+}
+.switch img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+}
+.sld-btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    bottom: 25px;
+    z-index: 3;
+}
+.sld-btn li {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    /* width: 26px; */
+    height: 26px;
+    border-radius: 26px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+}
+.sld-btn li span {
+    display: inline-block;
+    margin: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #3c3c3c;
+}
+.current {
+    background-color: #f88d2e;
+}
+.sld-btn .current {
+    background-color: #f88d2e;
+}
+.sld-btn .current span {
+    background-color: #fff;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: inline-block;
+    z-index: 3;
+    margin-left: -637px;
+    width: 285px;
+    height: 150px;
+}
+.top-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 2;
+    height: 412px;
+    width: 608px;
+    margin-left: -961px;
+    background: url("../../../images/Audio-visual_world/National_music/top-bg.png") 50% 0 no-repeat;
+}
+.panel {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 3;
+    margin-left: 410px;
+    width:210px;
+    height: 74px;
+}
+.nav {
+    margin: 15px 5px 0 0;
+    text-align: right;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+.nav a{
+    color: #2a2a2a;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.share-content {
+    position: relative;
+    margin-top: 12px;
+    padding-left: 3px;
+    width: 207px;
+    height: 27px;
+    background: url("../../../images/Audio-visual_world/National_music/share_bg.png") no-repeat;
+    z-index: 10;
+}
+.NIE-share{
+    position: relative;
+}
+.NIE-share-txt {
+    width:45px;
+    top: -1px;
+    margin: 0 9px 0 3px;
+    line-height: 27px;
+    color: #fdfefe;
+    font-size: 12px;
+    padding-left: 3px;
+    position: relative;
+}
+.NIE-share-iconBtn {
+    position: absolute;
+    top: 3px;
+    line-height: 27px;
+    width:150px;
+    height:20px;
+    list-style: none;
+    left:58px;
+    z-index: 10;
+}
+.NIE-share-iconBtn li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+    float: left;
+    background-color: #fff;
+    background-size:15px 15px;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    z-index: 10;
+}
+.NIE-share-iconBtn li a{
+    z-index: 10;
+}
+.social_bg1{
+    background: url("../../../images/Audio-visual_world/National_music/微信 (2).png") center center;
+}
+.social_bg2{
+    background: url("../../../images/Audio-visual_world/National_music/易信图标.png") center center;
+}
+.social_bg3{
+    background: url("../../../images/Audio-visual_world/National_music/微博.png") center center;
+}
+.social_bg4{
+    background: url("../../../images/Audio-visual_world/National_music/QQ空间.png") center center;
+}
+.social_bg5{
+    background-size: 18px 15px;
+    background: url("../../../images/Audio-visual_world/National_music/人人网.png") center center;
+}
+.social_bg6{
+    background: url("../../../images/Audio-visual_world/National_music/更多.png") center center;
+    margin-left: 8px;
+}
+.iconfont{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    text-decoration: none;
+    opacity: 0;
+}
+.NIE-share-more{
+    width: 204px;
+    height:58px;
+    border:1px solid #C2C2C2;
+    top: 20px;
+    background-color: #fff;
+    z-index: 22;
+    position: absolute;
+}
+.NIE-share-more ul{
+    width: 204px;
+    height:58px;
+}
+.NIE-share-more ul li{
+    display: inline-block;
+    width: 99px;
+    height:26px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    position: relative;
+}
+.NIE-share-more ul li a.iconfont1{
+    display: inline-block;
+    width: 67px;
+    height:24px;
+    line-height: 26px;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 12px;
+    color: #333;
+    padding-left:30px ;
+    background: url("../../../images/Audio-visual_world/National_music/icon.v5.png");
+}
+.wrap{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.content{
+    margin-left: 430px;
+    color: #ababab;
+    width: 850px;
+    height: 956px;
+}
+.content a {
+    color: #f88d2e;
+}
+.section1{
+    width: 850px;
+    height:268px;
+    margin-top: 30px;
+}
+.section1 li {
+    width: 202px;
+    height: 268px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 75px;
+}
+.section1 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 197px;
+    height: 195px;
+    text-align: center;
+    font-size: 24px;
+    background: url("../../../images/Audio-visual_world/National_music/section1.png") no-repeat;
+}
+.section1 span {
+    display: inline-block;
+    width: 197px;
+    height: 26px;
+    margin-top: 150px;
+    line-height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.section1 img{
+    border-radius: 197px;
+    transition: all .3s linear;
+}
+.section1 p {
+    display: block;
+    margin-top: 5px;
+    width: 202px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.section2{
+    position: relative;
+    margin-top: 80px;
+    width:850px;
+    height: 223px;
+}
+.prev {
+    left: -44px;
+    background-position: 0 0;
+
+}
+.next{
+    background-position: 22px 0;
+    right: 22px;
+}
+.prev,.next{
+    z-index: 2;
+    position: absolute;
+    top: 46px;
+    display: block;
+    width: 22px;
+    height: 47px;
+    opacity: .5;
+    background-image: url("../../../images/Audio-visual_world/National_music/pn-btn.png");
+}
+.prev:hover,.next:hover{
+    opacity:1;
+}
+.section2 .box {
+    position: relative;
+    width: 790px;
+    height: 223px;
+    overflow: hidden;
+}
+.section2 ul {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 9999px;
+    list-style: none;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.section2 li {
+    position: relative;
+    float: left;
+    margin-right: 28px;
+    width: 135px;
+    height:184px;
+}
+.section2 .play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 135px;
+    height: 100px;
+    background: url("../../../images/Audio-visual_world/National_music/play_botton.png") 45px 32px no-repeat;
+}
+.section2 img {
+    opacity: 0.5;
+    z-index: 33;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.section2-title {
+    margin: -5px 0 10px 0;
+    padding: 0 5px;
+    width: 125px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #000;
+}
+.section2 .weibo {
+    display: none;
+    float: right;
+    margin-top: 7px;
+    width: 18px;
+    height: 19px;
+    background: url("../../../images/Audio-visual_world/National_music/weibo.png") no-repeat;
+}
+.section2 .NIE-ilike-style1 {
+    float: left;
+    display: block;
+    padding-left: 17px;
+    width: 80px;
+    height: 100%;
+    background: url("../../../images/Audio-visual_world/National_music/like.png") 0 9px no-repeat;
+}
+.section2 .NIE-ilike-style1 em {
+    display: inline-block;
+    font-size: 12px;
+}
+#NIE-ilike-333{
+    line-height:33px;
+}
+.NIE-ilike-num {
+    font-style: normal;
+}
+.section2 .share-tt {
+    text-align: center;
+}
+.section2 ul p {
+    display: block;
+    width: 125px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.section2 .g-clr .share-tt{
+    font-size: 12px;
+    text-align: center;
+}
+.section2 ul li a{
+    display: inline-block;
+    width: 125px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    text-align: center;
+}
+.section2 ul li .share-tt:hover{
+    text-decoration: underline;
+}
+.section2 ul li p{
+    font-size: 12px;
+}
+.section3{
+    width:850px;
+    height:305px;
+    margin-top: 80px;
+    font-size: 12px;
+}
+.section3 ul{
+    width: 307px;
+    height: 280px;
+}
+.section3 .song_list1{
+    margin-right: 200px;
+    float: left;
+}
+.section3 .song_list2{
+    float: left;
+}
+.section3 li{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 15px;
+    list-style: none;
+    background: url("../../../images/Audio-visual_world/National_music/section3_libg.jpg") 0 0 no-repeat;
+    background-position: 183px 0;
+}
+.section3 ul a.u-link {
+    float: left;
+    width: 190px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #ababab;
+}
+.section3 .NIE-ilike{
+    float: left;
+    display: inline-block;
+    padding-left: 17px;
+    width: 95px;
+    line-height: 25px;
+    background: url("../../../images/Audio-visual_world/National_music/like.png") 0 3px no-repeat;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.section3 .sing{
+    display: block;
+    clear: both;
+    padding-left: 45px;
+    width: 245px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url("../../../images/Audio-visual_world/National_music/5sing.jpg");
+    color: #fffbbc;
+}
+#NIE-copyRight{
+    position: relative;
+    z-index: 999;
+    background: #000;
+    color: #fff;
+}
+.nie-copyright-new-inner{
+    width:840px;
+    text-align:left;
+    margin:0 auto;
+    padding:15px 0 10px;
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    min-width:280px}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;}
+.nie-cn-logo img{
+    padding-right:15px;
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;}
+.nie-cn-nav{
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:relative;}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;}
+.nie-cn-nav a{
+    text-decoration:none;
+    color: white;}
+.nie-cn-nav a:hover{
+    text-decoration:underline}
+.nie-cn-nav a.nie-cn-huShip{
+    display:inline-block;
+    background-color:#610000;
+    position:absolute;
+    z-index:2;
+    right:5px;
+    height:26px;
+    line-height:26px;
+    padding:0 5px;top:21px
+}

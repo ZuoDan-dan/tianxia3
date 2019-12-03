@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width:100%;
+    min-width: 1360px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: "微软雅黑";
+}
+html{
+    height:auto;
+    min-height:100%;
+    background: #0c0c0c;
+}
+a{
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+}
+i em{
+    font-style: normal;
+}
+.wrap{
+    width:100%;
+    max-width: 1920px;
+    overflow: hidden;
+    position: relative;
+    margin: -20px auto 0;
+}
+.wrap.scenery{
+height:1080px;
+}
+.indexBox{
+    margin:0 auto;
+    width:100%;
+    background: #fff;
+}
+.sceneryPic{
+    width:100%;
+    height:1080px;
+    margin:0 auto;
+    position: relative;
+    background: #7f7f7f;
+}
+.picBox{
+    width:1920px;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    left:50%;
+    margin-left: -960px;
+}
+.picBox ul{
+    position: absolute;
+    height:993px;
+}
+.picBox li{
+    width:1920px;
+    display: block;
+    z-index:1;
+    height:993px;
+    position:absolute;
+}
+.pic{
+    opacity: 1;
+    z-index:2;
+}
+.picbg{
+    width:1920px;
+    height:100%;
+    top:0;
+    position: absolute;
+    z-index: 5;
+    left:50%;
+    margin-left:-960px;
+background: url("../../../images/Game_features/Scene_display/scenery/scenery_bg_eb9bd6b.png") no-repeat;
+}
+.picbg span{
+    width:352px;
+    height:180px;
+    display: block;
+    margin:140px auto 0;
+    -webkit-animation:titleInDown ease-out 0.5s both;
+    -moz-animation:titleInDown ease-out 0.5s both;
+    -o-animation:titleInDown ease-out 0.5s both;
+    animation:titleInDown ease-out 0.5s both;
+}
+@keyframes titleInDown {
+0%{
+    opacity: 0;
+    transform:translate3d(0,-500px,0);
+}
+    60%{
+        opacity: 1;
+        transform:translate3d(0,8%,0);
+    }
+    75%{
+        transform:translate3d(0,5%,0);
+    }
+    90%{
+        transform:translate3d(0,2.5%,0);
+    }
+    100%{
+        transform:translate3d(0,0,0);
+    }
+}
+.sceneryNav,.warp li .handle,.prev i.ibg1{
+    background-image:url("../../../images/Game_features/Scene_display/scenery/index_1_z_e96cb1f.png") ;
+    background-repeat: no-repeat;
+}
+.sceneryNav{
+    background-position: -763px -183px;
+}
+.listBox{
+    width:100%;
+    height:230px;
+    margin: 0 auto;
+    position:absolute;overflow: hidden;
+    z-index:10;
+    top:60%;
+}
+.listBox ul{
+    width:4800px;
+    height:100%;
+    position: relative;
+    -webkit-animation:fadeInLeft ease-in-out 0.6s 0.3s both;
+    -moz-animation:fadeInLeft ease-in-out 0.6s 0.3s both;
+    -ms-animation:fadeInLeft ease-in-out 0.6s 0.3s both;
+    -o-animation:fadeInLeft ease-in-out 0.6s 0.3s both;
+    animation:fadeInLeft ease-in-out 0.6s 0.3s both;
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+.listBox li{
+    width:265px;
+    position: relative;
+    padding-top:35px;
+    float:left;
+}
+.listBox li p{
+    display: none;
+    text-align: center;
+    color:#fff;
+    height:26px;
+    font-size:14px;
+    line-height: 26px;
+    font-family:" 微软雅黑";
+}
+.listBox-img{
+    width:260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.listBox-img img{
+    width:100%;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+    transition: transform ease 0.3s;
+}
+img{
+    vertical-align: top;
+}
+.listBox-img img:hover{
+    -webkit-transform: scale3d(1.1,1.1,1.1);
+    -moz-transform: scale3d(1.1,1.1,1.1);
+    -ms-transform: scale3d(1.1,1.1,1.1);
+    -o-transform: scale3d(1.1,1.1,1.1);
+    transform: scale3d(1.1,1.1,1.1);
+}
+.listBox li span{
+    font-size: 16px;
+    display: block;text-align: center;
+    color: #fff;
+    font-family: SimSun;
+}
+.listBox li.toBig{
+    width:295px;
+    height:229px;
+    padding-top:25px;
+    cursor: pointer;
+    -webkit-transition: padding ease 0.3s ;
+    -moz-transition: padding ease 0.3s ;
+    -ms-transition: padding ease 0.3s ;
+    -o-transition: padding ease 0.3s ;
+    transition: padding ease 0.3s ;
+}
+.listBox li.toBig .listBox-img{
+width:290px;
+    height:163px;
+}
+.listBox-hov {
+    width:100%;
+    height:155px;
+    margin: 0 auto;
+    position:relative;overflow: hidden;
+    top:310px;
+    float: left;
+    opacity: 0.5;
+}
+.listBox-hov .list-left{
+    height:100%;
+    width: 39%;
+    position: absolute;
+    z-index: 20;
+    background: green;
+    float: left;
+}
+.listBox-hov .list-right{
+    height:100%;
+    width: 39%;
+    z-index: 20;
+    background: blue;
+    float: right;
+}
+.pic-pop{
+display: none;
+    position: absolute;
+    width:1920px;
+    height:100%;
+    left:50%;
+    top:0;
+    z-index:15;
+    margin-left:-960px;
+}
+.wrap .slideShow{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    z-index:27;
+    top:0;
+    left:0;
+    overflow: hidden;
+    margin-top:0;
+}
+.slideShow{
+    width:910px;
+    height:505px;
+    margin: 40px auto 0;
+    position: relative;
+}
+.wrap .slideWrap{
+    width:100%;
+    height:100%;
+    left:50%;
+    margin-left: -960px;
+}
+.slideWrap{
+    position: relative;
+    overflow: hidden;
+}
+.warp{
+    width:9999px;
+    height:1080px;
+    position: relative;
+    left:50%;
+    margin-left:-960px;
+    overflow: hidden!important;
+}
+.slideWrap .warp li{
+    width:1920px;
+    height:1080px;
+    position: relative;
+    float:left;
+}
+.slideWrap li{
+    float: left;
+}
+.warp li img{
+    width: 100%;
+    height:100%;
+    position:absolute;
+
+}
+.warp li .change{
+    min-width: 445.5px;
+    max-width: 1474px;
+    width:50%;
+    height:100%;
+    position: absolute;
+    overflow: hidden;
+    top:0;
+    left:0;
+}
+.warp li .handle{
+    display: block;
+    width:100px;
+    height:100px;
+    background-position: -1000px -629px;
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    left:47.7%;
+    z-index: 27;
+}
+.warp li .handle:hover{
+    cursor: pointer;
+}
+.warp .change-txt{
+    display: block;
+    position: absolute;
+    z-index:25;
+    width:280px;
+    height:380px;left:50%;
+    top:50%;
+    margin: -190px 0 0 -140px;
+    color: #fff;
+    font-size: 62px;
+    line-height: 60px;
+}
+.warp .change-txt span{
+    display:inline-block;
+    width:60px;
+    height:100%;
+    text-align: center;
+    vertical-align: top;
+    text-shadow: 3px 3px 3px #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.warp .change-txt span.s1{
+    margin-right:127px;
+}
+.wrap .slideNav{
+    width:100%;
+}
+.wrap .slideNav a{
+    width:140px;
+    height:580px;
+    overflow: hidden;
+}
+.slideNav a{
+    position:absolute;
+    z-index: 99;
+    margin-top:-330px;
+    top:50%;
+    left:280px;
+    cursor: pointer;
+    -webkit-transition: background-position ease-out  0.3s;
+    -moz-transition: background-position ease-out  0.3s;
+    -ms-transition: background-position ease-out  0.3s;
+    -o-transition: background-position ease-out  0.3s;
+    transition: background-position ease-out  0.3s;
+}
+.wrap .slideNav .prev ,.wrap .slideNav .next {
+    overflow: hidden;
+}
+.prev:hover.slideBtn.prev img{
+       right: 23px;
+   }
+.next:hover.slideBtn.next img{
+    left:23px;
+}
+.wrap .slideNav a .prev i.ibg1{
+    background-position: -143px 0;
+    margin-left: -140px;
+
+}
+.prev i{
+    display: block;
+    -webkit-transition: all ease-in 0.3s ;
+    -moz-transition: all ease-in 0.3s ;
+    -ms-transition: all ease-in 0.3s ;
+    -o-transition: all ease-in 0.3s ;
+    transition: all ease-in 0.3s ;
+}
+.slideBtn.prev img{
+    right: 140px;
+    float: right;
+}
+
+ .slideBtn.prev img , .slideBtn.next img{
+    height: 200px;
+    margin-top:280px;
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all ease-in .3s;
+    -moz-transition: all ease-in .3s;
+    -ms-transition: all ease-in .3s;
+    transition: all ease-in .3s
+}
+.slideBtn.next{
+    left:1490px;
+}
+.slideBtn.next img{
+    left: 140px;
+    float: right;
+}
+ .slideBtn.next .ibg1 {
+    margin-left: 140px;
+    background-repeat: no-repeat;
+}
+
+ .wrap .shareTop{
+     top:0;
+     width:100%;
+     height:130px;
+     position: absolute;
+     z-index:30;
+ }
+
+.wrap.scenery .scrrenhot{
+margin-left: -113px;
+}
+.scrrenhot{
+    width:230px;
+    height:53px;
+    top:30px;
+    left:50%;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: top ease-in 0.3s ;
+    -moz-transition: top ease-in 0.3s ;
+    -ms-transition: top ease-in 0.3s ;
+    -o-transition: top ease-in 0.3s ;
+    transition: top ease-in 0.3s ;
+}
+.scrrenhot a {
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    margin-right: 15px;
+    vertical-align: top;
+    font-size:0;
+    border-right: 1px solid #fff;
+    float: left;
+    -webkit-transition: all ease-in-out 1.2s;
+    -moz-transition: all ease-in-out 1.2s;
+    -ms-transition: all ease-in-out 1.2s;
+    transition: all ease-in-out 1.2s;
+}
+.scrrenhot .share-btn{
+    height:53px;
+    width:53px;
+    margin-right:15px;
+    display: inline-block;
+    border-right:1px solid #fff;
+    float:left;
+}
+.wrap.scenery .scrrenhot a.fullScreen-btn{
+    display: inline;
+}
+.wrap.scenery .scrrenhot a.exitfullScreen-btn{
+    background: rgba(0,0,0,.4);
+    font-size:12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    line-height: 53px;
+    text-align: center;
+    left:70px;
+    display: inline;
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+}
+.wrap.scenery .pop-close{
+  border-right:0;
+    border-left:0;
+    top:0;
+}
+.scrrenhot a.fullScreen-btn{
+    float: left;
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon12_72fe545.png") no-repeat;
+}
+.scrrenhot.tohide {
+    display: block;
+    top: -55px
+}
+.pop-close {
+    position: absolute;
+    top: 30px;
+    width: 53px;
+    height: 53px;
+    left: 50%;
+    border-right: 0;
+    margin-left: 15px;
+    border-left: 1px solid #fff;
+    -webkit-transition: all ease-in-out 1.2s;
+    -moz-transition: all ease-in-out 1.2s;
+    -ms-transition: all ease-in-out 1.2s;
+    transition: all ease-in-out 1.2s;
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon13_650d127.png")no-repeat
+}
+.scrrenhot a.fullScreen-btn:hover {
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon18_5679824.png") no-repeat
+}
+.pop-close:hover {
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon19_6daefc1.png") no-repeat
+}
+.screenshot .share-btn .NIE-share-txt {
+    display: none;
+}
+.share-btn{
+    width: 53px!important;
+    height: 53px!important;
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon15_aa806d9.png") no-repeat
+}
+
+.screenshot .share-btn .NIE-share6 .NIE-share-iconBtn a:hover {
+    background: url("../../../../public/images/Game_features/Scene_display/scenery/icon17_4f69bdd.png") no-repeat
+}
+
+.screenshot .share-btn .NIE-share6 .NIE-share-iconBtn a span {
+    display: none
+}
+.NIE-share-more ul {
+    width: 400px!important;
+}

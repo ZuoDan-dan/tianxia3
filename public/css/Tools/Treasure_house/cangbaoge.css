@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url("../../../images/Tools/Treasure_house/midBg.jpg");
+}
+#wrap-bg1{
+    width:100%;
+    height:135px;
+    background:url("../../../images/Tools/Treasure_house/topBg.jpg") center ;
+}
+#gwLogoBtn{
+    width:130px;
+    height:70px;
+    position:absolute;
+    margin:40px 0 0 110px;
+}
+#gwLogoBtn:hover{
+    cursor:pointer;
+}
+#cbgLogoBtn{
+    width:208px;
+    height:95px;
+    position:absolute;
+    margin:20px 0 0 280px;
+}
+#cbgLogoBtn:hover{
+    cursor:pointer;
+}
+.mobile{
+    width:91px;
+    height:22px;
+    position:absolute;
+    top:65px;
+    left:570px;
+    background:url("../../../images/Tools/Treasure_house/mobile.png") no-repeat;
+}
+.mobile:hover{
+    background-position:0 -22px;
+}
+#wrap-bg2{
+    width:100%;
+    height:880px;
+    position:relative;
+    background:url("../../../images/Tools/Treasure_house/con-bg.jpg") no-repeat center;
+}
+.wrap2_box2{
+    width: 960px;
+    margin:auto;
+}
+.notice{
+    margin-left:150px;
+}
+ul li{
+    float:left;
+    list-style:none;
+}
+.notice li{
+    padding-left:22px;
+    margin-left:15px;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat -278px 7px;
+}
+.notice a{
+    color:#7e401b;
+    font-size:12px;
+}
+.notice a:hover{
+    color:#CC0000;
+}
+.leftCon{
+    width:205px;
+    height:370px;
+    position:relative;
+    top:132px;
+    left:50px;
+}
+.areaList li{
+    width:80px;
+    height:25px;
+    margin-left:15px;
+    margin-top:4px;
+    text-align:center;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat -1px -26px;
+
+}
+.areaList a{
+    color:#fff;
+    text-decoration: none;
+    font-size:12px;
+    line-height:25px;
+}
+.areaList li:hover{
+    background-position:0 0;
+    color:#ffd800;
+    cursor:pointer;
+}
+.areaList li:hover a{
+    color:#ffd800;
+}
+.midCon{
+    width:320px;
+    height:40px;
+    position:relative;
+    top:-290px;
+    left:278px;
+}
+input{
+    margin-top:2px;
+    margin-left:5px;
+    font-size:12px;
+    width:189px;
+    height:22px;
+    color:#b6c5e6;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat -80px -1px;
+    border:1px solid #677f94;
+    padding-left: 5px;
+}
+button{
+    position:relative;
+    top:8px;
+    width:85px;
+    height:27px;
+    border:0;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat 0 -112px;
+}
+button:hover{
+    cursor:pointer;
+}
+.overall_search_div{
+    width:80px;
+    height:25px;
+    margin-right:5px;
+    float:right;
+    margin-top:20px;
+    text-align:center;
+    line-height:25px;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat 0 -83px;
+}
+.overall_search_link{
+    font-size: 12px;
+    color: #F8E091;
+    text-decoration: none;
+}
+.overall_search_div:hover a{
+    color:#fff;
+}
+.overall_search_div:hover{
+    background-position:0 -54px;
+}
+.serverList,.serverList2,.serverList3,.serverList4,.serverList5,.serverList6{
+    width:97%;
+    height:300px;
+    margin-top:62px;
+    margin-left:14px;
+}
+.serverList li a,.serverList2 li a,.serverList3 li a,.serverList4 li a,.serverList5 li a,
+.serverList6 li a{
+    width:82px;
+    height:28px;
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat 0 -83px;
+    display:block;
+    margin:1px 10px;
+    color:#f8e091;
+    text-decoration:none;
+    line-height:28px;
+    text-align:center;
+    font-size:12px;
+}
+.serverList li a:hover,.serverList2 li a:hover,.serverList3 li a:hover,.serverList4 li a:hover,
+.serverList5 li a:hover,.serverList6 li a:hover{
+    color:#fff;
+    background-position:0 -54px;
+}
+.rightCon{
+    width:207px;
+    height:300px;
+    margin-left:711px;
+    margin-top:-250px;
+}
+#tradeBox{
+    width:207px;
+    height:279px;
+    background:url("../../../images/Tools/Treasure_house/guide.jpg");
+}
+#tradeBox ul{
+    width:174px;
+    height:200px;
+    position:absolute;
+    top:230px;
+    left:925px;
+}
+#tradeBox li{
+    width:67px;
+    height:25px;
+    position:relative;
+    float:left;
+    margin:0 10px 15px 10px;
+}
+#tradeBox #b1{
+    background:url("../../../images/Tools/Treasure_house/btn_02.gif");
+}
+#tradeBox #b2{
+    background:url("../../../images/Tools/Treasure_house/p_02.gif");
+}
+#tradeBox #b3{
+    background:url("../../../images/Tools/Treasure_house/p_03.gif");
+}
+#tradeBox #b4{
+    background:url("../../../images/Tools/Treasure_house/p_04.gif");
+}
+#tradeBox #b5{
+    background:url("../../../images/Tools/Treasure_house/p_05.gif");
+}
+#tradeBox #b6{
+    background:url("../../../images/Tools/Treasure_house/btn_02.gif");
+}
+#tradeBox #b7{
+    background:url("../../../images/Tools/Treasure_house/p_07.gif");
+}
+#tradeBox #b8{
+    background:url("../../../images/Tools/Treasure_house/p_08.gif");
+}
+#tradeBox #b9{
+    background:url("../../../images/Tools/Treasure_house/p_09.gif");
+}
+#tradeBox #b10{
+    background:url("../../../images/Tools/Treasure_house/p_10.gif");
+}
+#tradeBox #b1:hover{
+    background:url("../../../images/Tools/Treasure_house/p_01.gif");
+}
+#tradeBox #b2:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_06.gif");
+}
+#tradeBox #b3:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_01.gif");
+}
+#tradeBox #b4:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_07.gif");
+}
+#tradeBox #b5:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_03.gif");
+}
+#tradeBox #b6:hover{
+    background:url("../../../images/Tools/Treasure_house/p_01.gif");
+}
+#tradeBox #b7:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_04.gif");
+}
+#tradeBox #b8:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_08.gif");
+}
+#tradeBox #b9:hover{
+    background:url("../../../images/Tools/Treasure_house/btn_05.gif");
+}
+#tradeBox #b10:hover{
+     background:url("../../../images/Tools/Treasure_house/btn_09.gif");
+}
+.intro{
+    width:875px;
+    height:130px;
+    position:relative;
+    margin-top:160px;
+    margin-left:45px;
+}
+.intro-leftCon{
+    width:230px;
+    height:130px;
+    position:absolute;
+    /*background-color:paleturquoise;*/
+    float:left;
+    left:40px;
+    font-size:12px;
+    color:#b6c5e6;
+    line-height:18px;
+}
+.intro-midCon{
+    width:230px;
+    height:130px;
+    position:absolute;
+    left:300px;
+    font-size:12px;
+    color:#b6c5e6;
+    line-height:18px;
+    top:-37px;
+}
+.intro-rightCon{
+    width:230px;
+    height:130px;
+    position:absolute;
+    left:600px;
+    top:-40px;
+}
+.intro-rightCon ul{
+    width:215px;
+    height:90px;
+    /*background-color:palegreen;*/
+    margin-top:38px;
+    margin-left:10px;
+}
+.intro-rightCon li{
+    width:95px;
+    height:24px;
+    /*background-color:paleturquoise;*/
+    background:url("../../../images/Tools/Treasure_house/items.png") no-repeat -292px -17px;
+    margin-left:10px;
+    font-size:12px;
+    line-height:24px;
+}
+.intro-rightCon li a{
+    color:#be9724;
+    padding-left:10px;
+}
+.intro-rightCon li a:hover{
+    color:#fc0;
+}
+.intro-rightCon li #more{
+    text-decoration: none;
+}
+#NIE-copyRight{
+    position: relative;
+    width: 100%;
+    background:#000;
+    color: #fff;
+    height:100px;
+    z-index:99;
+    bottom: -112px;
+}
+.nie-copyright-new-inner{
+    position:absolute;
+    left: 70px;
+    width:960px;
+    text-align:left;
+    margin:0 auto;
+    /*padding:15px 0 0;*/
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+    /*top:-50px;*/
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    position:absolute;
+    left:190px;
+    top:-52px;
+    min-width:280px;
+}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;
+}
+.nie-cn-logo img{
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;
+}
+.nie-cn-nav{
+    width:500px;
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:absolute;
+    top:-52px;
+    left:470px;
+}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal;
+}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;
+}
+.nie-cn-nav a{
+    text-decoration:none;
+    color: #fff;
+}
+.nie-cn-nav a:hover{
+    text-decoration:underline;
+}
+.nie-cn-part1{
+    position: relative;
+    width: 100%;
+}
+.nie-cn-part2{
+    position:absolute;
+    left:185px;
+}
+
+
+
+

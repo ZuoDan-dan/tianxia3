@@ -1,0 +1,57 @@
+#NIE-copyRight{
+    position: relative;
+    z-index: 999;
+    background: #000;
+    color: #fff;
+}
+.nie-copyright-new-inner{
+    width:840px;
+    text-align:left;
+    margin:0 auto;
+    padding:15px 0 10px;
+    font-size:12px;
+    font-family:SimSun;
+    line-height:20px;
+}
+.nie-cn-logo{
+    display:inline-block;
+    vertical-align:middle;
+    height:48px;
+    min-width:280px}
+.nie-cn-logo a{
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 2px;}
+.nie-cn-logo img{
+    padding-right:15px;
+    padding-top:5px;
+    border: 0;
+    vertical-align:middle;}
+.nie-cn-nav{
+    display:inline-block;
+    vertical-align:top;
+    padding-left:6px;
+    position:relative;}
+.nie-cn-nav i{
+    display:block;
+    font-style:normal}
+.nie-cn-nav i.nie-cn-nav-i2{
+    height:28px;
+    line-height:28px;}
+.nie-cn-nav a{
+    text-decoration:none;
+    color: white;}
+.nie-cn-nav a:hover{
+    text-decoration:underline}
+.nie-cn-nav a.nie-cn-huShip{
+    display:inline-block;
+    background:#610000;
+    position:absolute;
+    z-index:2;
+    color:#fff !important;
+    right:5px;
+    height:26px;
+    line-height:26px;
+    padding:0 5px;top:21px}
+
+

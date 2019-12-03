@@ -1,0 +1,782 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 12px;
+    background: #eeeeee;
+}
+.header{
+    width: 100%;
+    height:85px;
+    background-color: #191919;
+    position: relative;
+}
+.header_box{
+    width: 1000px;
+    margin: auto;
+}
+.alogo{
+    display: inline-block;
+    width: 193px;
+    height: 85px;
+    background: url("../../../images/Audio-visual_world/Gallery/logo.jpg");
+    float: left;
+}
+.pUser{
+    float: right;
+    margin-top: 30px;
+    height: 24px;
+    /*width: 200px;*/
+    line-height: 24px;
+    color: #b0b0b0;
+    position: relative;
+}
+.hying{
+    float: left;
+}
+.user-icon {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: top;
+    float: left;
+}
+.user-name {
+    display: inline-block;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 30px 0 5px;
+    margin-right: 15px;
+    background: #000 url("../../../images/Audio-visual_world/Gallery/gif.gif") right -13px no-repeat;
+    cursor: default;
+    float: left;
+}
+.gwsy{
+    float: left;
+}
+.user-more {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    z-index: 4;
+    background: #000;
+}
+.user-more a {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    width: 85px;
+}
+.pUser a {
+    color: #8c8b8b;
+    text-decoration: none;
+}
+.pUser a:hover{
+    text-decoration: underline;
+}
+.nav{
+    width: 100%;
+    height:50px;
+    background: url("../../../images/Audio-visual_world/Gallery/nav.png");
+}
+.nav_box{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+.nav_box ul{
+    height:34px;
+    padding-top: 16px;
+}
+.nav_box ul li{
+    height: 17px;
+    line-height: 17px;
+    border-right: 1px solid #b25e00;
+    float: left;
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+}
+.nav_box ul li a{
+    text-decoration: none;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    position: relative;
+    top: -6px;
+
+}
+.nav_box ul li a:hover{
+    background:url("../../../images/Audio-visual_world/Gallery/navbtn.png") 0 0 no-repeat;
+}
+.nav_box ul li em{
+    color: #fff;
+    font-style: normal;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.nav_box ul li a.now{
+    background:url("../../../images/Audio-visual_world/Gallery/navbtn.png") 0 0 no-repeat;
+}
+.nav_box ul li a.now em,.nav_box ul li a:hover em{
+    background:url("../../../images/Audio-visual_world/Gallery/navbtn.png") right -28px no-repeat;
+}
+.switch_pic{
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+}
+.mask {
+    position: absolute;
+    /*width: 500px;*/
+    height: 400px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    left: 50%;
+    top: 0;
+    background: #000;
+    z-index: 999;
+}
+.mask1 {
+    left:0;
+}
+.scLeft, .scRight {
+    position: absolute;
+    top: 156px;
+    left: 50%;
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    background: url("../../../images/Audio-visual_world/Gallery/lr.png") no-repeat;
+    cursor: pointer;
+    z-index: 1000;
+}
+.scLeft {
+    background-position: 0 0;
+    margin-left: -595px;
+}
+.scLeft:hover {
+    background-position: 0 -66px;
+}
+.scRight {
+    background-position: -66px 0;
+    margin-left: 530px;
+}
+.scRight:hover {
+    background-position: -66px -66px;
+}
+.picsBtns a {
+    float: left;
+    margin-right: 15px;
+}
+.picsBtns img {
+    display: block;
+    width: 58px;
+    height: 38px;
+    border: 1px solid #000;
+    margin: 1px;
+}
+.picsBtns img:hover{
+    border: 2px solid #ff7219;
+}
+.picsBtns .on{
+    border: 2px solid #ff7219;
+}
+.picsBtns {
+    position: absolute;
+    left: 50%;
+    top: 350px;
+    margin-left: -80px;
+    z-index: 1000;
+}
+.dHots {
+    width: 230px;
+    height: 374px;
+    padding: 25px 0 0 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: 250px;
+    top: 1px;
+    background: #fff;
+    z-index: 1000;
+}
+.dHots .hotimg {
+    display: block;
+    margin: 10px 0 0 0;
+    width: 130px;
+    height: 80px;
+    overflow: hidden;
+}
+.dHots .dTabcon ul {
+    display: none;
+}
+.dHots .top i {
+    background: none;
+    font-size: 18px;
+    color: #222;
+}
+.dHots li a:hover, .dHots .top a {
+    color: #fe6601;
+}
+.dHots li a:hover{
+    text-decoration: underline;
+}
+.dHots li a {
+    display: block;
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dHots li i {
+    float: left;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 8px;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+    background: #c3c3c3;
+    border-radius: 2px;
+    color: #fff;
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+.dHots h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #222;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+}
+.dHots .dTabbtn {
+    height: 34px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.dHots .dTabbtn .current {
+    background: #ff8a00;
+    color: #fff;
+    overflow: visible;
+}
+.dHots .dTabbtn .current i {
+    visibility: visible;
+}
+.dHots .dTabbtn i {
+    display: block;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border: 4px solid #fff;
+    border-top-color: #ff8a00;
+    margin: 0 auto;
+    visibility: hidden;
+}
+.dHots .dTabbtn span {
+    float: left;
+    position: relative;
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #888;
+    background: #eee;
+    cursor: default;
+}
+.dHots .dTabcon .current {
+    display: block;
+}
+.dHots .hot i {
+    background: #fe6601;
+    color: #fff;
+}
+.dHots li {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 17px;
+    color: #222;
+    clear: both;
+}
+.dHots .hotimg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+.slid_pics{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+}
+.pics_list1,.pics_list2{
+    transition: .1s linear;
+    width: 7000px;
+    position: absolute;
+}
+.pics_list_transition{
+    transition: .3s linear;
+}
+.pics_list1 li,.pics_list2 li,.pics_list1 img,.pics_list2 img{
+    width: 1000px;
+    height: 400px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.content{
+    width: 1000px;
+    margin:auto;
+    padding-top: 50px;
+}
+.oneWeek{
+    width: 100%;
+    height: 259px;
+    margin-bottom: 50px;
+    position: relative;
+    clear: both;
+}
+.hTitle{
+    width: 100%;
+    height:68px ;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ddd;
+}
+.hTitle em {
+    display: block;
+    height: 50px;
+    width: 230px;
+    background: url("../../../images/Audio-visual_world/Gallery/img0.jpg") no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.hTitle1 em {
+    background-position: 0 0;
+}
+.ulImglist {
+    margin-right: -30px;
+}
+.ulImglist li {
+    list-style: none;
+    float: left;
+    padding: 8px;
+    width: 160px;
+    margin-right: 30px;
+    background: #fff;
+    box-shadow: 0 1px 2px #dbdada;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px #dbdada;
+    -moz-box-shadow: 0 1px 2px #dbdada;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-bottom: 1px solid #dddddd;
+}
+.ulImglist a {
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.ulImglist img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ulImglist span {
+    display: block;
+    height: 30px;
+    width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 30px;
+    font-size: 14px;
+}
+.cos{
+    position: relative;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 514px;
+    clear: both;
+}
+.hTitle2 em {
+    background-position: 0 -50px;
+}
+.dOpt {
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+.fr {
+    float: right;
+}
+.dOpt .fl {
+    margin-right: 10px;
+    border-right: 1px solid #d5d5d5;
+}
+.fl {
+    float: left;
+}
+.dOpt .aBtn {
+    float: left;
+    margin-right: 10px;
+}
+.aBtn {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    background: #d5d5d5;
+    color: #666;
+    border-radius: 4px;
+    border: 1px solid #d5d5d5;
+    -webkit-transition: background 0.2s;
+}
+.redBtn,.cos .dOpt .redBtn:hover {
+    background: #fe831a;
+    color: #fff;
+    border: 1px solid #fe6909;
+}
+.dOpt .aBtn:hover, .dOpt .btn-on {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.dOpt .moreBtn {
+    float: left;
+    height: 13px;
+    line-height: 13px;
+    left: 13px;
+    padding: 17px 17px 0 18px;
+    background: url("../../../images/Audio-visual_world/Gallery/gif.gif") right 17px no-repeat;
+    border-left: 1px solid #d5d5d5;
+    color: #fe6601;
+}
+.dOpt .moreBtn:hover{
+    text-decoration: underline;
+}
+.cos .group1 .big {
+    width: 280px;
+    height: 400px;
+}
+.group1 .big a {
+    display: block;
+    width: 280px;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.group1 img, .group2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.ulImggroup em {
+    display: inline-block;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 5px;
+    margin-left: -13px;
+    margin-bottom: 10px;
+    background: #000;
+    color: #fff;
+    font-style: normal;
+}
+.ulImggroup .big {
+    padding: 13px;
+    background: #fff;
+}
+.group1 .big {
+    width: 280px;
+    height: 400px;
+}
+.ulImggroup .big, .ulImggroup .small {
+    -webkit-box-shadow: 0 1px 2px #dbdada;
+    -moz-box-shadow: 0 1px 2px #dbdada;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    box-shadow: 0 1px 2px #dbdada;
+    border-radius: 2px;
+    border-bottom: 1px solid #dddddd;
+}
+.ulImggroup span {
+    display: block;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.ulImggroup .small {
+    padding: 8px;
+    background: #fff;
+    float: left;
+}
+.group1 .smalls {
+    width: 694px;
+    height: 426px;
+}
+.group1 .small {
+    width: 140px;
+    height: 188px;
+    margin: 0 0 17px 17px;
+}
+.group1 .small a {
+    display: block;
+    width: 140px;
+    height: 160px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.group1 .small span {
+    width: 140px;
+}
+.screenPics{
+    width: 100%;
+    height: 465px;
+    clear: both;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hTitle3 em {
+    background-position: 0 -100px;
+}
+.group2 .big {
+    width: 356px;
+    height: 349px;
+}
+.group2 .big a {
+    display: block;
+    width: 356px;
+    height: 267px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.group2 .smalls {
+    width: 618px;
+    height: 375px;
+}
+.group2 .small {
+    width: 160px;
+    height: 156px;
+    margin: 0 0 30px 30px;
+}
+.group2 .small a {
+    display: block;
+    width: 160px;
+    height: 120px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.group2 .small span {
+    width: 160px;
+}
+.group2 .small a img{
+    margin-top: 18px;
+}
+.clr {
+    zoom: 1;
+}
+.hTitle4 em {
+    background-position: 0 -150px;
+}
+.hTitle5 em {
+    background-position: 0 -200px;
+}
+.txtbox{
+    width:100%;
+    margin-bottom: 30px;
+}
+.txtbox #p-tit {
+    height: 30px;
+    font: bold 18px/30px "Microsoft YaHei";
+}
+.txtbox p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer{
+    width:100%;
+    height:185px;
+    background-color:#0f0f0f;
+    position:absolute;
+    z-index:999;
+    top:2976px;
+}
+.footer_box{
+    width:840px;
+    height:155px;
+    margin:auto;
+    padding: 15px 0 10px;
+    color:#fff;
+}
+.footer_part1{
+    width:100%;
+    height:48px;
+    font-size:12px;
+    font-style: normal;
+    color:#fff;
+}
+.footer_part1 .nie-cn-logo {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 48px;
+    min-width: 280px;
+    float:left;
+    color:#fff;
+}
+.footer_part1 .nie-cn-logo .a0{
+    display:inline-block;
+    width:118px;
+    height:36px;
+}
+.footer_part1 .nie-cn-logo .a1{
+    display:inline-block;
+    width:149px;
+    height:36px;
+}
+.footer_part1 .nie-cn-logo .a2{
+    display:inline-block;
+    width:46px;
+    height:36px;
+}
+.footer_part1 .nie-cn-logo img{
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+.footer_part1 .nie-cn-nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 6px;
+    position: relative;
+    z-index: 1;
+    font-family: SimSun;
+    float:left;
+    width:450px;
+    font-size:12px;
+}
+.footer_part1 a{
+    color:#fff;
+}
+.footer_part1 .nie-cn-nav i{
+    font-style: normal;
+    display:inline-block;
+    width: 100%;
+    height:20px;
+}
+.footer_part1 .nie-cn-nav-i2{
+    height:28px;
+    line-height: 28px;
+}
+.footer_part2 p{
+    margin:0;
+    padding:5px 0;
+    font-family: SimSun;
+    font-size:12px;
+}
+.footer_part2 a{
+    padding-top:10px;
+    width:100%;
+    height:82px;
+    font-size:12px;
+    color:#fff;
+}
+
+.dFloat {
+    position: fixed;
+    left: 50%;
+    margin-left: 550px;
+    bottom: 130px;
+    width: 128px;
+    z-index: 1002;
+    opacity: 0;
+    transition: .3s linear;
+    -moz-transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -ms-transition: .3s linear;
+}
+.right-nav {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 5px;
+    background: url("../../../images/Audio-visual_world/Gallery/fixed.png") no-repeat;
+}
+.right-tip {
+    position: absolute;
+    left: 54px;
+    top: 8px;
+    width: 73px;
+    height: 26px;
+    line-height: 26px;
+    background: #d5d5d5;
+    text-align: center;
+    color: #000;
+    display: none;
+}
+.right-nav1 {
+    background-position: 0 0;
+}
+.right-nav1:hover {
+    background-position: -42px 0;
+}
+.right-nav2 {
+    background-position: 0 -47px;
+}
+.right-nav2:hover {
+    background-position: -42px -47px;
+}
+.right-nav3 {
+    background-position: 0 -94px;
+}
+.right-nav3:hover {
+    background-position: -42px -94px;
+}
+.right-nav4 {
+    background-position: 0 -141px;
+}
+.right-nav4:hover {
+    background-position: -42px -141px;
+}
+.right-nav5 {
+    background-position: 0 -189px;
+}
+.right-nav5:hover {
+    background-position: -42px -189px;
+}
+.right-nav:hover .right-tip, .dFloat .on .right-tip {
+    display: block;
+}
+.right-tip i {
+    position: absolute;
+    width: 4px;
+    height: 26px;
+    left: -4px;
+    top: 0;
+    background: url("../../../images/Audio-visual_world/Gallery/gif.gif") left -66px;
+}

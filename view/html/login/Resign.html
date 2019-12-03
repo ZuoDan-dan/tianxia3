@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易账号中心</title>
+    <link rel="stylesheet" href="../../../public/css/login/Resign.css">
+    <script src="../../../public/js/jquery-1.12.4.js"></script>
+    <script src="../../../public/js/jquery-md5.js"></script>
+
+</head>
+<body>
+    <div id="top">
+        <div id="top_logo">
+            <a href=""></a>
+        </div>
+        <div id="top_login">
+            已有账号？去
+            <a href="../login/Login_l.html" target="_blank">登录</a>
+        </div>
+    </div>
+    <div id="content">
+        <div id="content_top">
+            <div id="normal">普通账号注册</div>
+            <div id="spacial">
+                靓号注册
+                <span class="new">new</span>
+            </div>
+        </div>
+        <div id="content_main">
+            <form>
+                <!--   账号  -->
+                <label class="label label1">账号 : </label>
+                <input type="text" name="uname1" placeholder="网易邮箱/手机号/其他邮箱" class="input_txt1" onblur="checkInfos(this,'user','uid')"/>
+                <div class="sel"></div>
+                <div class="clear_txt clear_txt1"></div>
+                <div class="point point1">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">账号须由字母开头或11位手机号</span>
+                </div>
+                <!--   密码   -->
+                <label class="label label2">密码 : </label>
+                <input type="password" name="pwd1" placeholder="6-16位密码，区分大小写" class="input_pwd1" />
+                <div class="clear_txt clear_txt2"></div>
+                <div class="point point2">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">密码过于简单，请重新设置</span>
+                </div>
+
+                <!--   确认密码   -->
+                <label class="label label3">确认密码 : </label>
+                <input type="password" name="pwd2" placeholder="再次输入密码" class="input_pwd2" onblur="checkInfos3(this)"/>
+                <div class="clear_txt clear_txt3"></div>
+                <div class="point point3">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">密码不一致</span>
+                </div>
+
+                <label class="label label4">验证码 : </label>
+                <div class="input input_checkCode1" onblur="checkInfos4(this)"> >>> 请点击"物""峰""诗" >>></div>
+                <!--<input  type="text" name="checkCode1" placeholder='>>> 请点击"物""峰""诗" >>>' class="input_checkCode1" onblur="checkInfos4(this)"/>-->
+                <div class="checkCode_img">
+                    <div class="check_icon check_icon1"></div>
+                    <div class="check_icon check_icon2"></div>
+                    <div class="check_icon check_icon3"></div>
+                </div>
+                <div class="point point4">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">验证码输入不正确</span>
+                </div>
+
+
+                <!--   QQ邮箱   -->
+                <label class="label label5">QQ邮箱 : </label>
+                <input type="text" name="uname2" placeholder="QQ邮箱" class="input_txt2" onblur="checkInfos5(this)"/>
+                <div class="clear_txt clear_txt4"></div>
+                <div class="point point5">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">邮箱号不正确</span>
+                </div>
+
+                <span class="span1">忘记密码时，可通过QQ邮箱快速找回密码</span>
+                <!--   邮箱验证码   -->
+                <label class="label label6">邮箱验证码 : </label>
+                <input type="text" name="checkCode2" placeholder="输入QQ邮箱验证码" class="input_checkCode2"/>
+                <!--<div class="clear_txt"></div>-->
+                <div class="input_sbt1">获取验证码</div>
+                <div class="point point6">
+                    <span class="icon"></span>
+                    <span class="ferrorWord">邮箱验证码不正确</span>
+                </div>
+
+                <!--   注册按钮   -->
+                <div class="input_sbt2" id="input_sbt2">注&nbsp;&nbsp;册</div>
+                <!--<input type="text"  name="sbt2" value="注&nbsp;&nbsp;册" class="input_sbt2" />-->
+                <label class="agree">
+                    <span class="span2">
+                        <input type="checkbox" class="check"/>
+                        <span class="checked"></span>
+                    </span>
+                    <span class="span3">
+                        用户勾选即代表同意
+                        <a href="">《服务条款》</a>和<a href="">《网络游戏用户隐私保护和个人信息利用政策》</a>
+                    </span>
+                </label>
+            </form>
+            <div id="spacialPage">
+                <div id="spacialImg"></div>
+                <a href="" />靓号注册</div>
+            </div>
+            <div id="app"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footBox">
+            <p>
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">About NetEase</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">公司简介</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">联系方式</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">OAuth2.0认证</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">招聘信息</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">客户服务</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">相关法律</a>
+                -
+                <a href="http://corp.163.com/eng/about/overview.html" target="_blank">网络营销</a>
+            </p>
+            <p>网易公司版权所有 ©1997-2017</p>
+        </div>
+    </div>
+
+
+
+    <script src="../../../public/js/login/Resign.js"></script>
+
+</body>
+</html>

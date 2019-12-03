@@ -1,0 +1,50 @@
+{%extends 'layout.html'%}
+{%block main%}
+{%for content in contents%}
+<div class="sub_right">
+    <div class="title_box">
+        <p class="time">{{content.time|date('Y年m月d日')}}</p>
+        <p class="tit">{{content.area}}见面会 </p>
+    </div>
+    <div class="sub_top">
+        <div class="img_box">
+            <img src={{content.img}} width="325px" height="199px" alt="2017年上海见面会">
+        </div>
+        <div class="inf_box">
+            <p class="title">{{content.title}}</p>
+            <p class="new">　　{{content.decription}}</p>
+            <div class="btn_box">
+                <a href="" class="btn btns" target="_blank"><span>查看详情</span></a>
+            </div>
+            <div class="renav">
+                <ul>
+                    <li><a href="" target="_blank">【新闻】{{content.new}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
+    <div class="sub_title">
+        <h4>现场照片</h4>
+    </div>
+    <div class="pic_box">
+        <div class="page">
+            <span class="nowpage">1</span>/<span class="allpage">14</span>
+        </div>
+
+        <div class="scrollV" id="pics">
+            <div class="scroll_box">
+                <ul id="content1"  class="scroll_content" style="width: 7546px;">
+                    {%for ad in adds%}
+                    <li>
+                        <img src={{ad.ad}} alt="2017年上海见面会">
+                    </li>
+                    {%endfor%}
+
+                </ul>
+            </div>
+            <a class="scrollview-prev"></a>
+            <a class="scrollview-next"></a>
+        </div>
+    </div>
+    {%endblock%}

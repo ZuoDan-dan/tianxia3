@@ -69,9 +69,7 @@ $("#scroll_wrap").mouseout(function () {
     },80);
 });
 
-//main主模块居中
-var main_left=($(document).width()-$(".main").width())/2;
-$(".main").css("left",main_left);
+
 
 //鼠标移入字变大，变成橘色，随后消失
 $(".link").hover(function () {
